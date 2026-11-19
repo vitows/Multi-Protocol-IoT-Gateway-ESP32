@@ -22,6 +22,7 @@ Kristen Satya Wacana, Salatiga.
 
 | Folder | Isi |
 | --- | --- |
+| `Kode_Program/` | Program *gateway* versi FreeRTOS dan Bare Metal, *node* LoRa dan BLE, sketch diagnostik uji pendahuluan, serta program pencatat `logger.py`. Penjelasan ada di `Kode_Program/README.md`. |
 | `Lampiran_A_Data_Mentah_TTU/` | Data mentah 242 sesi pengujian dari program pencatat (`summary`, `result`, `mqtt`, `latency`, dan `serial_raw` setiap sesi). Penjelasan lengkap ada di `README.txt` folder ini. |
 | `Lampiran_B_Tabel_Hasil_TTU/` | Tabel hasil pengujian (`Tabel_Hasil_Pengujian.xlsx`, Tabel B.1 sampai B.12) dan program `Program/olah_data.py` yang membuatnya dari data mentah. |
 
