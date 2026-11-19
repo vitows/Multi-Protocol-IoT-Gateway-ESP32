@@ -2,11 +2,10 @@
 
 Repositori ini berisi kode program dan data penelitian untuk makalah berikut.
 
-> V. W. Sulistyanto, I. Setyawan, and I. K. Timotius, "Perbandingan FreeRTOS dan *Bare Metal* pada *Gateway* IoT
-> Multiprotokol LoRa dan BLE Berbasis ESP32," *Techné: Jurnal Ilmiah Elektroteknika* (dalam proses pengajuan).
+> V. W. Sulistyanto, I. Setyawan, and I. K. Timotius, "Rancang Bangun *Multi-Protocol* IoT *Gateway* Berbasis ESP32
+> dengan Implementasi FreeRTOS," *Techné: Jurnal Ilmiah Elektroteknika* (dalam proses pengajuan).
 
-Penelitian ini merupakan bagian dari Tugas Talenta Unggul *Rancang Bangun Multi-Protocol IoT Gateway Berbasis ESP32
-dengan Implementasi FreeRTOS*, Program Studi Teknik Elektro, Fakultas Teknik Elektronika dan Komputer, Universitas
+Penelitian ini merupakan bagian dari Tugas Talenta Unggul dengan judul yang sama, Program Studi Teknik Elektro, Fakultas Teknik Elektronika dan Komputer, Universitas
 Kristen Satya Wacana, Salatiga.
 
 ## Ringkasan penelitian
