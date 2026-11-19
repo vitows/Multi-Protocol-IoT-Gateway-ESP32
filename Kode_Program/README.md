@@ -2,7 +2,7 @@
 
 | Folder | Isi |
 | --- | --- |
-| `Gateway_FreeRTOS/` | Gateway versi FreeRTOS: `TaskLoRa` dan `TaskBLE` pada inti 0, `TaskMQTT` dan `TaskOLED` pada inti 1, dihubungkan oleh *queue* BLE (128) dan *queue* data (384). |
+| `Gateway_FreeRTOS/` | Gateway versi FreeRTOS: `TaskLoRa` dan `TaskBLE` pada *core* 0, `TaskMQTT` dan `TaskOLED` pada *core* 1, dihubungkan oleh *queue* BLE (128) dan *queue* data (384). |
 | `Gateway_BareMetal/` | Gateway versi Bare Metal: seluruh pekerjaan berjalan berurutan di `loop()` dengan *mailbox* satu paket untuk setiap sumber. |
 | `Gateway_BLE_Only_Test/` | Sketch diagnostik untuk uji pendahuluan P3: gateway hanya memindai BLE tanpa Wi-Fi dan MQTT. |
 | `Node_LoRa/` | *Node* LoRa (ID 0), SX1278 433 MHz, SF7, lebar pita 125 kHz, *coding rate* 4/5, 17 dBm. |
