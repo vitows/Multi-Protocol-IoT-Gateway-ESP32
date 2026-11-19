@@ -1,0 +1,277 @@
+{
+ "meta": {
+  "sesi": "S10_BM_R3",
+  "skenario": 10,
+  "rep": 3,
+  "arch": "BM",
+  "gangguan": null,
+  "gangguan_cfg": null,
+  "gangguan_events": null,
+  "jenis_uji": "Kepadatan",
+  "payload": 7,
+  "nodes": 4,
+  "send_ms": 500,
+  "adv_ms": 20,
+  "lora_s": 4,
+  "tanggal_jam": "2026-10-25 20:49:11",
+  "kanal_wifi": "7",
+  "jaringan_sekitar": "3",
+  "posisi_node": "2",
+  "pindaian_wifi": [
+   {
+    "ssid": "WiFi_Pengujian",
+    "channel": 7,
+    "signal": 55
+   },
+   {
+    "ssid": "WiFi_Lain_01",
+    "channel": 11,
+    "signal": 7
+   },
+   {
+    "ssid": "WiFi_Lain_06",
+    "channel": 6,
+    "signal": 10
+   }
+  ],
+  "catatan": "",
+  "radio_gateway": null,
+  "scan_restart": 0
+ },
+ "hasil": {
+  "sumber": {
+   "LORA1": {
+    "p_sent": 150,
+    "p_recv": 150,
+    "hilang": 0,
+    "plr": 0.0,
+    "tiphon": "Sangat baik",
+    "latensi": {
+     "n": 150,
+     "mean": 1.46,
+     "p50": 1,
+     "p95": 2,
+     "max": 2
+    },
+    "payload_teramati": [
+     7
+    ],
+    "duplikat_broker": 0,
+    "seq_hilang": [],
+    "letak": {
+     "diterima_gateway": 150,
+     "hilang_radio": 0,
+     "hilang_program": 0,
+     "dipublish_gateway": 150
+    }
+   },
+   "BLE1": {
+    "p_sent": 1200,
+    "p_recv": 1198,
+    "hilang": 2,
+    "plr": 0.1667,
+    "tiphon": "Sangat baik",
+    "latensi": {
+     "n": 1198,
+     "mean": 1.9991652754590985,
+     "p50": 1,
+     "p95": 4,
+     "max": 215
+    },
+    "payload_teramati": [
+     7
+    ],
+    "duplikat_broker": 0,
+    "seq_hilang": [
+     25,
+     1161
+    ],
+    "letak": {
+     "diterima_gateway": 1198,
+     "hilang_radio": 2,
+     "hilang_program": 0,
+     "dipublish_gateway": 1198
+    },
+    "radio": {
+     "aktif_s": 610,
+     "iklan_tertangkap": 4457,
+     "seq_terlewat_radio": 2,
+     "celah_terlama_ms": 918,
+     "jendela_kosong": 0,
+     "rssi_avg": -91,
+     "rssi_min": -102,
+     "iklan_dipancarkan_est": 24400,
+     "capture_rate": 18.3,
+     "salinan_per_seq": 20.0
+    }
+   },
+   "BLE2": {
+    "p_sent": 1200,
+    "p_recv": 1199,
+    "hilang": 1,
+    "plr": 0.0833,
+    "tiphon": "Sangat baik",
+    "latensi": {
+     "n": 1199,
+     "mean": 3.675562969140951,
+     "p50": 1,
+     "p95": 21,
+     "max": 481
+    },
+    "payload_teramati": [
+     7
+    ],
+    "duplikat_broker": 0,
+    "seq_hilang": [
+     1019
+    ],
+    "letak": {
+     "diterima_gateway": 1199,
+     "hilang_radio": 1,
+     "hilang_program": 0,
+     "dipublish_gateway": 1199
+    },
+    "radio": {
+     "aktif_s": 610,
+     "iklan_tertangkap": 4586,
+     "seq_terlewat_radio": 1,
+     "celah_terlama_ms": 588,
+     "jendela_kosong": 0,
+     "rssi_avg": -70,
+     "rssi_min": -100,
+     "iklan_dipancarkan_est": 24400,
+     "capture_rate": 18.8,
+     "salinan_per_seq": 20.0
+    }
+   },
+   "BLE3": {
+    "p_sent": 1200,
+    "p_recv": 1200,
+    "hilang": 0,
+    "plr": 0.0,
+    "tiphon": "Sangat baik",
+    "latensi": {
+     "n": 1200,
+     "mean": 2.3866666666666667,
+     "p50": 1,
+     "p95": 12,
+     "max": 192
+    },
+    "payload_teramati": [
+     7
+    ],
+    "duplikat_broker": 0,
+    "seq_hilang": [],
+    "letak": {
+     "diterima_gateway": 1200,
+     "hilang_radio": 0,
+     "hilang_program": 0,
+     "dipublish_gateway": 1200
+    },
+    "radio": {
+     "aktif_s": 610,
+     "iklan_tertangkap": 4790,
+     "seq_terlewat_radio": 0,
+     "celah_terlama_ms": 506,
+     "jendela_kosong": 0,
+     "rssi_avg": -71,
+     "rssi_min": -85,
+     "iklan_dipancarkan_est": 24400,
+     "capture_rate": 19.6,
+     "salinan_per_seq": 20.0
+    }
+   },
+   "BLE4": {
+    "p_sent": 1200,
+    "p_recv": 1200,
+    "hilang": 0,
+    "plr": 0.0,
+    "tiphon": "Sangat baik",
+    "latensi": {
+     "n": 1200,
+     "mean": 3.0741666666666667,
+     "p50": 1,
+     "p95": 21,
+     "max": 31
+    },
+    "payload_teramati": [
+     7
+    ],
+    "duplikat_broker": 0,
+    "seq_hilang": [],
+    "letak": {
+     "diterima_gateway": 1200,
+     "hilang_radio": 0,
+     "hilang_program": 0,
+     "dipublish_gateway": 1200
+    },
+    "radio": {
+     "aktif_s": 610,
+     "iklan_tertangkap": 4238,
+     "seq_terlewat_radio": 0,
+     "celah_terlama_ms": 615,
+     "jendela_kosong": 0,
+     "rssi_avg": -65,
+     "rssi_min": -96,
+     "iklan_dipancarkan_est": 24400,
+     "capture_rate": 17.4,
+     "salinan_per_seq": 20.0
+    }
+   }
+  },
+  "protokol": {
+   "LoRa": {
+    "p_sent": 150,
+    "p_recv": 150,
+    "plr": 0.0,
+    "tiphon": "Sangat baik",
+    "latensi": {
+     "n": 150,
+     "mean": 1.46,
+     "p50": 1,
+     "p95": 2,
+     "max": 2
+    }
+   },
+   "BLE": {
+    "p_sent": 4800,
+    "p_recv": 4797,
+    "plr": 0.0625,
+    "tiphon": "Sangat baik",
+    "latensi": {
+     "n": 4797,
+     "mean": 2.7840316864707106,
+     "p50": 1,
+     "p95": 17,
+     "max": 481
+    }
+   }
+  },
+  "total": {
+   "p_sent": 4950,
+   "p_recv": 4947,
+   "hilang": 3,
+   "plr": 0.0606,
+   "tiphon": "Sangat baik",
+   "latensi": {
+    "n": 4947,
+    "mean": 2.743885182939155,
+    "p50": 1,
+    "p95": 17,
+    "max": 481
+   }
+  },
+  "letak_total": {
+   "hilang_radio": 3,
+   "hilang_program": 0,
+   "gagal_publish": 0,
+   "rawdrop": 0,
+   "qmax": null,
+   "restok": 0,
+   "restmiss": 0,
+   "arch_gateway": "BM",
+   "baseline": true,
+   "catatan": null
+  }
+ }
+}

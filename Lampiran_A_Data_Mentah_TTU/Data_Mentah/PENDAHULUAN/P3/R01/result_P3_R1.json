@@ -1,0 +1,88 @@
+{
+ "meta": {
+  "sesi": "P3_R1",
+  "skenario": null,
+  "rep": 1,
+  "arch": null,
+  "gangguan": null,
+  "gangguan_cfg": null,
+  "gangguan_events": null,
+  "jenis_uji": null,
+  "payload": 7,
+  "nodes": 1,
+  "send_ms": 2000,
+  "adv_ms": 100,
+  "lora_s": null,
+  "tanggal_jam": "2026-10-26 23:41:29",
+  "kanal_wifi": "7",
+  "jaringan_sekitar": "2",
+  "posisi_node": "2",
+  "pindaian_wifi": [
+   {
+    "ssid": "WiFi_Pengujian",
+    "channel": 7,
+    "signal": 53
+   },
+   {
+    "ssid": "WiFi_Lain_06",
+    "channel": 6,
+    "signal": 7
+   }
+  ],
+  "catatan": "",
+  "radio_gateway": null,
+  "scan_restart": 0,
+  "pendahuluan": "P3",
+  "kondisi": "Iklan 100 ms, tanpa Wi-Fi",
+  "gateway_uji": "Gateway_BLE_Only_Test",
+  "radio_terverifikasi": true
+ },
+ "hasil": {
+  "sumber": {
+   "BLE1": {
+    "p_sent": 300,
+    "p_recv": 299,
+    "hilang": 1,
+    "plr": 0.3333,
+    "tiphon": "Sangat baik",
+    "latensi": null,
+    "payload_teramati": [
+     7
+    ],
+    "duplikat_broker": 0,
+    "seq_hilang": [
+     0
+    ],
+    "radio": {
+     "aktif_s": 610,
+     "iklan_tertangkap": 4056,
+     "seq_terlewat_radio": 0,
+     "celah_terlama_ms": 539,
+     "jendela_kosong": 0,
+     "rssi_avg": -68,
+     "rssi_min": -91,
+     "iklan_dipancarkan_est": 5810,
+     "capture_rate": 69.8,
+     "salinan_per_seq": 19.0
+    }
+   }
+  },
+  "protokol": {
+   "BLE": {
+    "p_sent": 300,
+    "p_recv": 299,
+    "plr": 0.3333,
+    "tiphon": "Sangat baik",
+    "latensi": null
+   }
+  },
+  "total": {
+   "p_sent": 300,
+   "p_recv": 299,
+   "hilang": 1,
+   "plr": 0.3333,
+   "tiphon": "Sangat baik",
+   "latensi": null
+  }
+ }
+}

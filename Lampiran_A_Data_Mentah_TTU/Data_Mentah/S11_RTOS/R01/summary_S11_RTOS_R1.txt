@@ -1,0 +1,41 @@
+=== HASIL SESI: S11_RTOS_R1 ===
+Tanggal/jam: 2026-10-25 00:50:46 | Skenario: 11 | Repetisi: 1 | Arsitektur: FreeRTOS
+Payload: 7 B | Node BLE: 4 | Interval BLE: 100 ms | Interval LoRa: 4 s | Interval iklan: 20 ms
+Kanal Wi-Fi: 7 | Jaringan sekitar: 4 | Posisi node: 2 | Catatan: -
+Sumber   P_sent  P_recv  Hilang    PLR% |  Lat avg    p50    p95    max (ms)  Kategori TIPHON
+---------------------------------------------------------------------------------------------
+LORA1       150     150       0    0.00 |     14.2      1      9    871  Sangat baik  payload teramati=[7]B
+BLE1       6000    3894    2106   35.10 |     11.9      1     29   1761  Buruk  payload teramati=[7]B
+BLE2       6000    3997    2003   33.38 |     13.7      1     30   1761  Buruk  payload teramati=[7]B
+BLE3       6000    3974    2026   33.77 |     14.2      1     30   1763  Buruk  payload teramati=[7]B
+BLE4       6000    3969    2031   33.85 |     14.1      1     38   1764  Buruk  payload teramati=[7]B
+---------------------------------------------------------------------------------------------
+LoRa        150     150       0    0.00 |     14.2      1      9    871  Sangat baik
+BLE       24000   15834    8166   34.02 |     13.5      1     31   1764  Buruk
+TOTAL     24150   15984    8166   33.81 |     13.5      1     31   1764  Buruk
+
+Kategori TIPHON (Tabel 4): <3% sangat baik | 3-<15% baik | 15-<25% sedang | >=25% buruk
+
+Nomor urut yang hilang:
+  BLE1: 2106 hilang, contoh seq: [0, 1, 3, 6, 7, 9, 10, 12, 15, 16, 17, 18, 21, 23, 24, 26, 27, 29, 30, 32, 33, 35, 36, 37, 38, 39, 40, 41, 42, 45] ...
+  BLE2: 2003 hilang, contoh seq: [0, 3, 4, 5, 6, 9, 10, 11, 13, 14, 16, 17, 20, 22, 23, 25, 26, 28, 30, 32, 35, 37, 38, 39, 41, 46, 47, 48, 49, 52] ...
+  BLE3: 2026 hilang, contoh seq: [0, 1, 2, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 20, 23, 26, 28, 29, 32, 33, 34, 37, 40, 43, 47, 49, 55, 56] ...
+  BLE4: 2031 hilang, contoh seq: [2, 3, 4, 5, 6, 7, 10, 16, 21, 22, 24, 27, 30, 32, 33, 35, 37, 39, 40, 42, 43, 46, 48, 51, 56, 58, 60, 61, 63, 66] ...
+
+Letak paket yang hilang (Tabel 22) -- gateway melapor arch=RTOS:
+  Sumber   P_sent  diterima gw  hilang radio      dibuang antrean  dipublish gw
+  LORA1       150          150             0                    0           150
+  BLE1       6000         3894          2106                    0          3894
+  BLE2       6000         3997          2003                    0          3997
+  BLE3       6000         3974          2026                    0          3974
+  BLE4       6000         3969          2031                    0          3969
+  TOTAL: hilang di radio=8166 | hilang di program=0 | gagal publish=0 | antrean maks (qmax)=48
+
+Diagnostik radio BLE (baris G, gateway):
+  BLE1: iklan tertangkap=4864 | capture rate=19.8% | seq terlewat di radio=2104 | celah terlama=733 ms | RSSI rata2=-90 dBm, terlemah=-102 dBm
+  BLE2: iklan tertangkap=4366 | capture rate=17.8% | seq terlewat di radio=2002 | celah terlama=612 ms | RSSI rata2=-70 dBm, terlemah=-99 dBm
+  BLE3: iklan tertangkap=4024 | capture rate=16.7% | seq terlewat di radio=2022 | celah terlama=617 ms | RSSI rata2=-69 dBm, terlemah=-82 dBm
+  BLE4: iklan tertangkap=4013 | capture rate=16.6% | seq terlewat di radio=2031 | celah terlama=615 ms | RSSI rata2=-67 dBm, terlemah=-82 dBm
+Scan BLE restart selama sesi: 0x
+
+File sesi: summary_S11_RTOS_R1.txt, result_S11_RTOS_R1.json, mqtt_S11_RTOS_R1.csv, latency_S11_RTOS_R1.csv, serial_raw_S11_RTOS_R1.log (folder 'hasil\S11_RTOS\R01')

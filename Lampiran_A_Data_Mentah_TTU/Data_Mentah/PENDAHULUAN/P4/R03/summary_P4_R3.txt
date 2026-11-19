@@ -1,0 +1,32 @@
+=== HASIL SESI: P4_R3 ===
+Tanggal/jam: 2026-10-27 01:23:11 | Skenario: - | Repetisi: 3 | Arsitektur: FreeRTOS
+Payload: 7 B | Node BLE: 1 | Interval BLE: 2000 ms | Interval LoRa: - s | Interval iklan: 100 ms
+Kanal Wi-Fi: 7 | Jaringan sekitar: 2 | Posisi node: 2 | Catatan: -
+UJI PENDAHULUAN P4: Iklan 100 ms, pengaturan Wi-Fi diubah | gateway: Gateway_FreeRTOS.ino dengan WIFI_NO_SLEEP 0 dan COEX_PREFER_BT 1 | pengaturan radio terverifikasi
+Sumber   P_sent  P_recv  Hilang    PLR% |  Lat avg    p50    p95    max (ms)  Kategori TIPHON
+---------------------------------------------------------------------------------------------
+BLE1        300     268      32   10.67 |      1.0      1      1      2  Baik  payload teramati=[7]B
+---------------------------------------------------------------------------------------------
+BLE         300     268      32   10.67 |      1.0      1      1      2  Baik
+TOTAL       300     268      32   10.67 |      1.0      1      1      2  Baik
+
+Kategori TIPHON (Tabel 4): <3% sangat baik | 3-<15% baik | 15-<25% sedang | >=25% buruk
+
+Nomor urut yang hilang:
+  BLE1: 32 hilang, contoh seq: [15, 17, 19, 21, 38, 42, 53, 76, 78, 105, 108, 110, 118, 142, 148, 153, 164, 186, 199, 201, 203, 205, 224, 240, 243, 251, 255, 257, 267, 269] ...
+
+Letak paket yang hilang (Tabel 22) -- gateway melapor arch=RTOS:
+  Sumber   P_sent  diterima gw  hilang radio      dibuang antrean  dipublish gw
+  BLE1        300          268            32                    0           268
+  TOTAL: hilang di radio=32 | hilang di program=0 | gagal publish=0 | antrean maks (qmax)=1
+
+Diagnostik radio BLE (baris G, gateway):
+  BLE1: iklan tertangkap=1556 | capture rate=27.1% | seq terlewat di radio=32 | celah terlama=4512 ms | RSSI rata2=-90 dBm, terlemah=-100 dBm
+
+Pengaturan radio gateway: Radio: WIFI_NO_SLEEP=0 COEX_PREFER_BT=1
+Scan BLE restart selama sesi: 0x
+
+Baris tabel uji pendahuluan (Kode | Kondisi | P_sent | P_receive | PLR BLE | Rasio penerimaan iklan | Celah terlama):
+  P4 | Iklan 100 ms, pengaturan Wi-Fi diubah | 300 | 268 | 10,67% | 27,1% | 4.512 ms
+
+File sesi: summary_P4_R3.txt, result_P4_R3.json, mqtt_P4_R3.csv, latency_P4_R3.csv, serial_raw_P4_R3.log (folder 'hasil\PENDAHULUAN\P4\R03')

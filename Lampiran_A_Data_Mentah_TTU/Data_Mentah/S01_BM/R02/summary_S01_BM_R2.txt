@@ -1,0 +1,29 @@
+=== HASIL SESI: S01_BM_R2 ===
+Tanggal/jam: 2026-10-21 10:25:14 | Skenario: 1 | Repetisi: 2 | Arsitektur: Bare Metal
+Payload: 7 B | Node BLE: 1 | Interval BLE: 2000 ms | Interval LoRa: 4 s | Interval iklan: 20 ms
+Kanal Wi-Fi: 7 | Jaringan sekitar: 5 | Posisi node: 2 | Catatan: -
+Sumber   P_sent  P_recv  Hilang    PLR% |  Lat avg    p50    p95    max (ms)  Kategori TIPHON
+---------------------------------------------------------------------------------------------
+LORA1       150     148       2    1.33 |      1.5      1      2      2  Sangat baik  payload teramati=[7]B
+BLE1        300     300       0    0.00 |      4.0      1     23     29  Sangat baik  payload teramati=[7]B
+---------------------------------------------------------------------------------------------
+LoRa        150     148       2    1.33 |      1.5      1      2      2  Sangat baik
+BLE         300     300       0    0.00 |      4.0      1     23     29  Sangat baik
+TOTAL       450     448       2    0.44 |      3.2      1     20     29  Sangat baik
+
+Kategori TIPHON (Tabel 4): <3% sangat baik | 3-<15% baik | 15-<25% sedang | >=25% buruk
+
+Nomor urut yang hilang:
+  LORA1: 2 hilang, contoh seq: [50, 125]
+
+Letak paket yang hilang (Tabel 22) -- gateway melapor arch=BM:
+  Sumber   P_sent  diterima gw  hilang radio  tertimpa di mailbox  dipublish gw
+  LORA1       150          148             2                    0           148
+  BLE1        300          300             0                    0           300
+  TOTAL: hilang di radio=2 | hilang di program=0 | gagal publish=0
+
+Diagnostik radio BLE (baris G, gateway):
+  BLE1: iklan tertangkap=5703 | capture rate=23.4% | seq terlewat di radio=0 | celah terlama=1138 ms | RSSI rata2=-89 dBm, terlemah=-99 dBm
+Scan BLE restart selama sesi: 0x
+
+File sesi: summary_S01_BM_R2.txt, result_S01_BM_R2.json, mqtt_S01_BM_R2.csv, latency_S01_BM_R2.csv, serial_raw_S01_BM_R2.log (folder 'hasil\S01_BM\R02')

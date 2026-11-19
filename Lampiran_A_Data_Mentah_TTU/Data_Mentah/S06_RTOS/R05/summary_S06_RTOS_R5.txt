@@ -1,0 +1,32 @@
+=== HASIL SESI: S06_RTOS_R5 ===
+Tanggal/jam: 2026-10-24 23:28:55 | Skenario: 6 | Repetisi: 5 | Arsitektur: FreeRTOS
+Payload: 7 B | Node BLE: 3 | Interval BLE: 2000 ms | Interval LoRa: 4 s | Interval iklan: 20 ms
+Kanal Wi-Fi: 7 | Jaringan sekitar: 3 | Posisi node: 2 | Catatan: -
+Sumber   P_sent  P_recv  Hilang    PLR% |  Lat avg    p50    p95    max (ms)  Kategori TIPHON
+---------------------------------------------------------------------------------------------
+LORA1       150     150       0    0.00 |      1.4      1      2      3  Sangat baik  payload teramati=[7]B
+BLE1        300     300       0    0.00 |      1.0      1      1      2  Sangat baik  payload teramati=[7]B
+BLE2        300     300       0    0.00 |      1.0      1      1      2  Sangat baik  payload teramati=[7]B
+BLE3        300     300       0    0.00 |      1.1      1      1      2  Sangat baik  payload teramati=[7]B
+---------------------------------------------------------------------------------------------
+LoRa        150     150       0    0.00 |      1.4      1      2      3  Sangat baik
+BLE         900     900       0    0.00 |      1.0      1      1      2  Sangat baik
+TOTAL      1050    1050       0    0.00 |      1.1      1      2      3  Sangat baik
+
+Kategori TIPHON (Tabel 4): <3% sangat baik | 3-<15% baik | 15-<25% sedang | >=25% buruk
+
+Letak paket yang hilang (Tabel 22) -- gateway melapor arch=RTOS:
+  Sumber   P_sent  diterima gw  hilang radio      dibuang antrean  dipublish gw
+  LORA1       150          150             0                    0           150
+  BLE1        300          300             0                    0           300
+  BLE2        300          300             0                    0           300
+  BLE3        300          300             0                    0           300
+  TOTAL: hilang di radio=0 | hilang di program=0 | gagal publish=0 | antrean maks (qmax)=1
+
+Diagnostik radio BLE (baris G, gateway):
+  BLE1: iklan tertangkap=5157 | capture rate=21.0% | seq terlewat di radio=0 | celah terlama=616 ms | RSSI rata2=-90 dBm, terlemah=-98 dBm
+  BLE2: iklan tertangkap=5560 | capture rate=22.7% | seq terlewat di radio=0 | celah terlama=507 ms | RSSI rata2=-67 dBm, terlemah=-104 dBm
+  BLE3: iklan tertangkap=5445 | capture rate=22.2% | seq terlewat di radio=0 | celah terlama=607 ms | RSSI rata2=-68 dBm, terlemah=-82 dBm
+Scan BLE restart selama sesi: 0x
+
+File sesi: summary_S06_RTOS_R5.txt, result_S06_RTOS_R5.json, mqtt_S06_RTOS_R5.csv, latency_S06_RTOS_R5.csv, serial_raw_S06_RTOS_R5.log (folder 'hasil\S06_RTOS\R05')

@@ -1,0 +1,698 @@
+[1793033523.174] G,830083,BLE1=0/4068/0/0/0/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033523.180] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033523.188] [berjalan] BLE1: durasi=745s capture_mentah=4068 unik=300 estimasi_P_sent=300 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033523.196] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033523.202] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033523.209] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033533.175] G,840084,BLE1=0/4068/0/0/0/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033533.180] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033533.189] [berjalan] BLE1: durasi=745s capture_mentah=4068 unik=300 estimasi_P_sent=300 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033533.197] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033533.203] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033533.210] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033543.176] G,850085,BLE1=0/4068/0/0/0/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033543.182] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033543.190] [berjalan] BLE1: durasi=745s capture_mentah=4068 unik=300 estimasi_P_sent=300 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033543.198] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033543.204] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033543.211] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033547.701] === RINGKASAN RUN SELESAI ===
+[1793033547.711] [final] BLE1: durasi=745s capture_mentah=4068 unik=300 estimasi_P_sent=300 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033547.712] D,BLE1,0,854614,854614,0,7
+[1793033549.801] D,BLE1,1,856714,856714,0,7
+[1793033551.871] D,BLE1,2,858784,858784,0,7
+[1793033553.177] G,860086,BLE1=43/4111/282/-69/-80/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033553.182] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033553.191] [berjalan] BLE1: durasi=5s capture_mentah=43 unik=3 estimasi_P_sent=3 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033553.199] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033553.204] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033553.212] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033553.875] D,BLE1,3,860788,860788,0,7
+[1793033555.759] D,BLE1,4,862672,862672,0,7
+[1793033557.801] D,BLE1,5,864714,864714,0,7
+[1793033559.827] D,BLE1,6,866740,866740,0,7
+[1793033561.712] D,BLE1,7,868625,868625,0,7
+[1793033563.178] G,870087,BLE1=69/4180/318/-68/-81/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033563.183] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033563.192] [berjalan] BLE1: durasi=15s capture_mentah=112 unik=8 estimasi_P_sent=8 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033563.199] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033563.205] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033563.213] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033563.800] D,BLE1,8,870714,870714,0,7
+[1793033565.885] D,BLE1,9,872797,872797,0,7
+[1793033567.775] D,BLE1,10,874688,874688,0,7
+[1793033569.801] D,BLE1,11,876714,876714,0,7
+[1793033571.857] D,BLE1,12,878770,878770,0,7
+[1793033573.179] G,880088,BLE1=70/4250/318/-68/-81/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033573.184] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033573.192] [berjalan] BLE1: durasi=25s capture_mentah=182 unik=13 estimasi_P_sent=13 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033573.200] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033573.206] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033573.214] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033573.758] D,BLE1,13,880672,880672,0,7
+[1793033575.751] D,BLE1,14,882664,882664,0,7
+[1793033577.840] D,BLE1,15,884753,884753,0,7
+[1793033579.734] D,BLE1,16,886647,886647,0,7
+[1793033581.732] D,BLE1,17,888646,888646,0,7
+[1793033583.179] G,890089,BLE1=67/4317/251/-68/-81/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033583.186] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033583.193] [berjalan] BLE1: durasi=35s capture_mentah=249 unik=18 estimasi_P_sent=18 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033583.201] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033583.208] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033583.215] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033583.842] D,BLE1,18,890755,890755,0,7
+[1793033585.725] D,BLE1,19,892639,892639,0,7
+[1793033587.710] D,BLE1,20,894623,894623,0,7
+[1793033589.829] D,BLE1,21,896742,896742,0,7
+[1793033591.729] D,BLE1,22,898643,898643,0,7
+[1793033593.180] G,900090,BLE1=71/4388/300/-68/-81/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033593.186] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033593.194] [berjalan] BLE1: durasi=45s capture_mentah=320 unik=23 estimasi_P_sent=23 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033593.202] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033593.208] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033593.216] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033593.815] D,BLE1,23,900728,900728,0,7
+[1793033595.814] D,BLE1,24,902727,902727,0,7
+[1793033597.711] D,BLE1,25,904624,904624,0,7
+[1793033599.801] D,BLE1,26,906714,906714,0,7
+[1793033601.901] D,BLE1,27,908814,908814,0,7
+[1793033603.181] G,910091,BLE1=67/4455/314/-68/-80/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033603.187] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033603.195] [berjalan] BLE1: durasi=55s capture_mentah=387 unik=28 estimasi_P_sent=28 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033603.203] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033603.209] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033603.216] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033603.801] D,BLE1,28,910714,910714,0,7
+[1793033605.800] D,BLE1,29,912714,912714,0,7
+[1793033607.867] D,BLE1,30,914781,914781,0,7
+[1793033609.747] D,BLE1,31,916661,916661,0,7
+[1793033611.741] D,BLE1,32,918654,918654,0,7
+[1793033613.182] G,920092,BLE1=70/4525/300/-68/-80/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033613.188] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033613.196] [berjalan] BLE1: durasi=65s capture_mentah=457 unik=33 estimasi_P_sent=33 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033613.204] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033613.210] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033613.218] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033613.820] D,BLE1,33,920733,920733,0,7
+[1793033615.720] D,BLE1,34,922634,922634,0,7
+[1793033617.710] D,BLE1,35,924623,924623,0,7
+[1793033619.815] D,BLE1,36,926728,926728,0,7
+[1793033621.700] D,BLE1,37,928614,928614,0,7
+[1793033623.183] G,930093,BLE1=70/4595/303/-68/-81/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033623.188] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033623.197] [berjalan] BLE1: durasi=75s capture_mentah=527 unik=38 estimasi_P_sent=38 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033623.205] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033623.211] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033623.218] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033623.800] D,BLE1,38,930714,930714,0,7
+[1793033625.808] D,BLE1,39,932723,932723,0,7
+[1793033627.794] D,BLE1,40,934708,934708,0,7
+[1793033629.795] D,BLE1,41,936709,936709,0,7
+[1793033631.894] D,BLE1,42,938808,938808,0,7
+[1793033633.184] G,940094,BLE1=71/4666/252/-68/-78/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033633.189] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033633.198] [berjalan] BLE1: durasi=85s capture_mentah=598 unik=43 estimasi_P_sent=43 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033633.206] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033633.212] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033633.219] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033633.801] D,BLE1,43,940714,940714,0,7
+[1793033635.805] D,BLE1,44,942718,942718,0,7
+[1793033637.807] D,BLE1,45,944721,944721,0,7
+[1793033639.708] D,BLE1,46,946622,946622,0,7
+[1793033641.705] D,BLE1,47,948620,948620,0,7
+[1793033643.185] G,950095,BLE1=72/4738/289/-68/-78/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033643.190] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033643.199] [berjalan] BLE1: durasi=95s capture_mentah=670 unik=48 estimasi_P_sent=48 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033643.207] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033643.212] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033643.220] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033644.000] D,BLE1,48,950914,950914,0,7
+[1793033645.800] D,BLE1,49,952714,952714,0,7
+[1793033647.804] D,BLE1,50,954718,954718,0,7
+[1793033649.907] D,BLE1,51,956821,956821,0,7
+[1793033651.721] D,BLE1,52,958635,958635,0,7
+[1793033653.186] G,960096,BLE1=67/4805/408/-68/-77/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033653.191] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033653.200] [berjalan] BLE1: durasi=105s capture_mentah=737 unik=53 estimasi_P_sent=53 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033653.207] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033653.214] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033653.221] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033653.811] D,BLE1,53,960725,960725,0,7
+[1793033655.898] D,BLE1,54,962813,962813,0,7
+[1793033657.794] D,BLE1,55,964708,964708,0,7
+[1793033659.780] D,BLE1,56,966694,966694,0,7
+[1793033661.874] D,BLE1,57,968788,968788,0,7
+[1793033663.186] G,970097,BLE1=71/4876/215/-68/-77/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033663.192] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033663.200] [berjalan] BLE1: durasi=115s capture_mentah=808 unik=58 estimasi_P_sent=58 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033663.209] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033663.214] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033663.222] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033663.749] D,BLE1,58,970662,970662,0,7
+[1793033665.767] D,BLE1,59,972681,972681,0,7
+[1793033667.857] D,BLE1,60,974772,974772,0,7
+[1793033669.744] D,BLE1,61,976659,976659,0,7
+[1793033671.747] D,BLE1,62,978662,978662,0,7
+[1793033673.187] G,980098,BLE1=69/4945/310/-68/-78/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033673.193] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033673.201] [berjalan] BLE1: durasi=125s capture_mentah=877 unik=63 estimasi_P_sent=63 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033673.209] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033673.215] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033673.223] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033673.835] D,BLE1,63,980749,980749,0,7
+[1793033675.800] D,BLE1,64,982714,982714,0,7
+[1793033677.739] D,BLE1,65,984654,984654,0,7
+[1793033679.831] D,BLE1,66,986745,986745,0,7
+[1793033681.800] D,BLE1,67,988714,988714,0,7
+[1793033683.189] G,990099,BLE1=78/5023/309/-69/-79/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033683.194] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033683.202] [berjalan] BLE1: durasi=135s capture_mentah=955 unik=68 estimasi_P_sent=68 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033683.210] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033683.217] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033683.224] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033683.736] D,BLE1,68,990650,990650,0,7
+[1793033685.823] D,BLE1,69,992738,992738,0,7
+[1793033687.717] D,BLE1,70,994632,994632,0,7
+[1793033689.723] D,BLE1,71,996638,996638,0,7
+[1793033691.904] D,BLE1,72,998818,998818,0,7
+[1793033693.189] G,1000100,BLE1=75/5098/412/-69/-78/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033693.194] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033693.205] [berjalan] BLE1: durasi=145s capture_mentah=1030 unik=73 estimasi_P_sent=73 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033693.211] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033693.217] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033693.225] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033693.792] D,BLE1,73,1000706,1000706,0,7
+[1793033695.792] D,BLE1,74,1002707,1002707,0,7
+[1793033697.875] D,BLE1,75,1004789,1004789,0,7
+[1793033699.764] D,BLE1,76,1006679,1006679,0,7
+[1793033701.779] D,BLE1,77,1008693,1008693,0,7
+[1793033703.190] G,1010101,BLE1=65/5163/412/-68/-80/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033703.195] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033703.206] [berjalan] BLE1: durasi=155s capture_mentah=1095 unik=78 estimasi_P_sent=78 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033703.212] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033703.218] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033703.226] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033703.873] D,BLE1,78,1010787,1010787,0,7
+[1793033705.799] D,BLE1,79,1012714,1012714,0,7
+[1793033707.758] D,BLE1,80,1014672,1014672,0,7
+[1793033709.862] D,BLE1,81,1016778,1016778,0,7
+[1793033711.778] D,BLE1,82,1018693,1018693,0,7
+[1793033713.191] G,1020102,BLE1=72/5235/418/-68/-81/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033713.196] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033713.207] [berjalan] BLE1: durasi=165s capture_mentah=1167 unik=83 estimasi_P_sent=83 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033713.213] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033713.218] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033713.226] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033713.800] D,BLE1,83,1020714,1020714,0,7
+[1793033715.877] D,BLE1,84,1022792,1022792,0,7
+[1793033717.799] D,BLE1,85,1024714,1024714,0,7
+[1793033720.008] D,BLE1,86,1026923,1026923,0,7
+[1793033721.907] D,BLE1,87,1028822,1028822,0,7
+[1793033723.191] G,1030103,BLE1=70/5305/263/-68/-80/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033723.197] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033723.208] [berjalan] BLE1: durasi=175s capture_mentah=1237 unik=88 estimasi_P_sent=88 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033723.214] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033723.219] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033723.227] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033723.999] D,BLE1,88,1030914,1030914,0,7
+[1793033725.766] D,BLE1,89,1032681,1032681,0,7
+[1793033727.878] D,BLE1,90,1034793,1034793,0,7
+[1793033729.773] D,BLE1,91,1036689,1036689,0,7
+[1793033731.747] D,BLE1,92,1038662,1038662,0,7
+[1793033733.192] G,1040104,BLE1=61/5366/320/-67/-80/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033733.198] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033733.209] [berjalan] BLE1: durasi=185s capture_mentah=1298 unik=93 estimasi_P_sent=93 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033733.214] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033733.220] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033733.228] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033733.871] D,BLE1,93,1040786,1040786,0,7
+[1793033735.799] D,BLE1,94,1042714,1042714,0,7
+[1793033737.899] D,BLE1,95,1044814,1044814,0,7
+[1793033739.899] D,BLE1,96,1046814,1046814,0,7
+[1793033741.799] D,BLE1,97,1048714,1048714,0,7
+[1793033743.193] G,1050105,BLE1=73/5439/295/-69/-80/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033743.199] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033743.209] [berjalan] BLE1: durasi=195s capture_mentah=1372 unik=98 estimasi_P_sent=98 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033743.215] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033743.221] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033743.229] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033743.799] D,BLE1,98,1050714,1050714,0,7
+[1793033745.874] D,BLE1,99,1052789,1052789,0,7
+[1793033747.800] D,BLE1,100,1054714,1054714,0,7
+[1793033749.768] D,BLE1,101,1056683,1056683,0,7
+[1793033751.876] D,BLE1,102,1058791,1058791,0,7
+[1793033753.194] G,1060106,BLE1=71/5510/217/-68/-80/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033753.200] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033753.210] [berjalan] BLE1: durasi=205s capture_mentah=1442 unik=103 estimasi_P_sent=103 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033753.216] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033753.222] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033753.230] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033753.757] D,BLE1,103,1060672,1060672,0,7
+[1793033755.859] D,BLE1,104,1062774,1062774,0,7
+[1793033757.957] D,BLE1,105,1064872,1064872,0,7
+[1793033759.761] D,BLE1,106,1066676,1066676,0,7
+[1793033761.798] D,BLE1,107,1068714,1068714,0,7
+[1793033763.195] G,1070107,BLE1=64/5574/322/-68/-80/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033763.200] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033763.211] [berjalan] BLE1: durasi=215s capture_mentah=1506 unik=108 estimasi_P_sent=108 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033763.217] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033763.223] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033763.231] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033763.898] D,BLE1,108,1070814,1070814,0,7
+[1793033765.746] D,BLE1,109,1072662,1072662,0,7
+[1793033767.737] D,BLE1,110,1074653,1074653,0,7
+[1793033769.820] D,BLE1,111,1076735,1076735,0,7
+[1793033771.725] D,BLE1,112,1078641,1078641,0,7
+[1793033773.196] G,1080108,BLE1=69/5643/271/-68/-80/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033773.202] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033773.212] [berjalan] BLE1: durasi=225s capture_mentah=1576 unik=113 estimasi_P_sent=113 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033773.218] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033773.224] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033773.232] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033773.717] D,BLE1,113,1080633,1080633,0,7
+[1793033775.838] D,BLE1,114,1082754,1082754,0,7
+[1793033777.738] D,BLE1,115,1084653,1084653,0,7
+[1793033779.799] D,BLE1,116,1086714,1086714,0,7
+[1793033781.898] D,BLE1,117,1088814,1088814,0,7
+[1793033783.197] G,1090109,BLE1=68/5711/316/-68/-78/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033783.202] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033783.213] [berjalan] BLE1: durasi=235s capture_mentah=1644 unik=118 estimasi_P_sent=118 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033783.219] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033783.224] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033783.233] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033783.715] D,BLE1,118,1090630,1090630,0,7
+[1793033785.715] D,BLE1,119,1092631,1092631,0,7
+[1793033787.844] D,BLE1,120,1094760,1094760,0,7
+[1793033789.756] D,BLE1,121,1096671,1096671,0,7
+[1793033791.745] D,BLE1,122,1098661,1098661,0,7
+[1793033793.198] G,1100110,BLE1=68/5779/408/-68/-79/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033793.203] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033793.214] [berjalan] BLE1: durasi=245s capture_mentah=1711 unik=123 estimasi_P_sent=123 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033793.220] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033793.226] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033793.233] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033793.852] D,BLE1,123,1100768,1100768,0,7
+[1793033795.798] D,BLE1,124,1102714,1102714,0,7
+[1793033797.898] D,BLE1,125,1104814,1104814,0,7
+[1793033799.848] D,BLE1,126,1106764,1106764,0,7
+[1793033801.798] D,BLE1,127,1108714,1108714,0,7
+[1793033803.198] G,1110111,BLE1=77/5856/281/-69/-79/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033803.204] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033803.215] [berjalan] BLE1: durasi=255s capture_mentah=1788 unik=128 estimasi_P_sent=128 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033803.220] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033803.226] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033803.235] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033803.713] D,BLE1,128,1110629,1110629,0,7
+[1793033805.811] D,BLE1,129,1112727,1112727,0,7
+[1793033807.708] D,BLE1,130,1114625,1114625,0,7
+[1793033809.708] D,BLE1,131,1116625,1116625,0,7
+[1793033811.813] D,BLE1,132,1118728,1118728,0,7
+[1793033813.199] G,1120112,BLE1=73/5929/264/-68/-79/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033813.205] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033813.216] [berjalan] BLE1: durasi=265s capture_mentah=1862 unik=133 estimasi_P_sent=133 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033813.221] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033813.227] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033813.235] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033813.715] D,BLE1,133,1120631,1120631,0,7
+[1793033815.710] D,BLE1,134,1122626,1122626,0,7
+[1793033817.824] D,BLE1,135,1124740,1124740,0,7
+[1793033819.711] D,BLE1,136,1126627,1126627,0,7
+[1793033821.937] D,BLE1,137,1128853,1128853,0,7
+[1793033823.201] G,1130113,BLE1=71/6000/235/-68/-80/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033823.206] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033823.216] [berjalan] BLE1: durasi=275s capture_mentah=1932 unik=138 estimasi_P_sent=138 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033823.222] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033823.228] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033823.236] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033823.876] D,BLE1,138,1130793,1130793,0,7
+[1793033825.798] D,BLE1,139,1132714,1132714,0,7
+[1793033827.898] D,BLE1,140,1134814,1134814,0,7
+[1793033829.898] D,BLE1,141,1136814,1136814,0,7
+[1793033831.722] D,BLE1,142,1138638,1138638,0,7
+[1793033833.201] G,1140114,BLE1=78/6078/276/-69/-79/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033833.207] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033833.217] [berjalan] BLE1: durasi=285s capture_mentah=2011 unik=143 estimasi_P_sent=143 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033833.223] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033833.229] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033833.237] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033833.710] D,BLE1,143,1140627,1140627,0,7
+[1793033835.816] D,BLE1,144,1142731,1142731,0,7
+[1793033837.708] D,BLE1,145,1144625,1144625,0,7
+[1793033839.707] D,BLE1,146,1146622,1146622,0,7
+[1793033841.902] D,BLE1,147,1148819,1148819,0,7
+[1793033843.202] G,1150115,BLE1=67/6145/334/-67/-78/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033843.207] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033843.218] [berjalan] BLE1: durasi=295s capture_mentah=2077 unik=148 estimasi_P_sent=148 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033843.224] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033843.230] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033843.238] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033843.710] D,BLE1,148,1150626,1150626,0,7
+[1793033845.705] D,BLE1,149,1152621,1152621,0,7
+[1793033847.816] D,BLE1,150,1154733,1154733,0,7
+[1793033849.797] D,BLE1,151,1156714,1156714,0,7
+[1793033851.797] D,BLE1,152,1158714,1158714,0,7
+[1793033853.203] G,1160116,BLE1=64/6209/318/-68/-80/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033853.208] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033853.219] [berjalan] BLE1: durasi=305s capture_mentah=2141 unik=153 estimasi_P_sent=153 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033853.225] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033853.230] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033853.239] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033853.871] D,BLE1,153,1160788,1160788,0,7
+[1793033855.764] D,BLE1,154,1162681,1162681,0,7
+[1793033857.754] D,BLE1,155,1164670,1164670,0,7
+[1793033859.865] D,BLE1,156,1166782,1166782,0,7
+[1793033861.740] D,BLE1,157,1168657,1168657,0,7
+[1793033863.204] G,1170117,BLE1=66/6275/258/-67/-78/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033863.209] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033863.220] [berjalan] BLE1: durasi=315s capture_mentah=2208 unik=158 estimasi_P_sent=158 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033863.226] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033863.232] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033863.239] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033863.838] D,BLE1,158,1170755,1170755,0,7
+[1793033865.830] D,BLE1,159,1172747,1172747,0,7
+[1793033867.724] D,BLE1,160,1174641,1174641,0,7
+[1793033869.706] D,BLE1,161,1176622,1176622,0,7
+[1793033871.811] D,BLE1,162,1178729,1178729,0,7
+[1793033873.204] G,1180118,BLE1=64/6339/230/-67/-79/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033873.210] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033873.221] [berjalan] BLE1: durasi=325s capture_mentah=2271 unik=163 estimasi_P_sent=163 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033873.227] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033873.232] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033873.240] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033873.725] D,BLE1,163,1180641,1180641,0,7
+[1793033875.797] D,BLE1,164,1182714,1182714,0,7
+[1793033877.825] D,BLE1,165,1184741,1184741,0,7
+[1793033879.713] D,BLE1,166,1186630,1186630,0,7
+[1793033881.704] D,BLE1,167,1188622,1188622,0,7
+[1793033883.205] G,1190119,BLE1=70/6409/314/-69/-81/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033883.211] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033883.222] [berjalan] BLE1: durasi=335s capture_mentah=2341 unik=168 estimasi_P_sent=168 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033883.227] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033883.233] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033883.241] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033883.813] D,BLE1,168,1190730,1190730,0,7
+[1793033885.913] D,BLE1,169,1192830,1192830,0,7
+[1793033887.722] D,BLE1,170,1194639,1194639,0,7
+[1793033889.902] D,BLE1,171,1196820,1196820,0,7
+[1793033891.796] D,BLE1,172,1198713,1198713,0,7
+[1793033893.207] G,1200120,BLE1=71/6480/266/-68/-80/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033893.212] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033893.222] [berjalan] BLE1: durasi=345s capture_mentah=2412 unik=173 estimasi_P_sent=173 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033893.228] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033893.234] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033893.242] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033893.792] D,BLE1,173,1200708,1200708,0,7
+[1793033895.897] D,BLE1,174,1202814,1202814,0,7
+[1793033897.770] D,BLE1,175,1204687,1204687,0,7
+[1793033899.747] D,BLE1,176,1206665,1206665,0,7
+[1793033901.846] D,BLE1,177,1208764,1208764,0,7
+[1793033903.207] G,1210121,BLE1=66/6546/311/-67/-79/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033903.213] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033903.223] [berjalan] BLE1: durasi=355s capture_mentah=2478 unik=178 estimasi_P_sent=178 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033903.229] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033903.235] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033903.243] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033903.716] D,BLE1,178,1210633,1210633,0,7
+[1793033905.716] D,BLE1,179,1212633,1212633,0,7
+[1793033907.820] D,BLE1,180,1214738,1214738,0,7
+[1793033909.797] D,BLE1,181,1216714,1216714,0,7
+[1793033911.792] D,BLE1,182,1218709,1218709,0,7
+[1793033913.208] G,1220122,BLE1=63/6609/310/-67/-78/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033913.214] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033913.224] [berjalan] BLE1: durasi=365s capture_mentah=2541 unik=183 estimasi_P_sent=183 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033913.230] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033913.236] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033913.244] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033913.889] D,BLE1,183,1220807,1220807,0,7
+[1793033915.796] D,BLE1,184,1222714,1222714,0,7
+[1793033917.796] D,BLE1,185,1224714,1224714,0,7
+[1793033919.854] D,BLE1,186,1226771,1226771,0,7
+[1793033921.746] D,BLE1,187,1228664,1228664,0,7
+[1793033923.209] G,1230123,BLE1=68/6677/215/-68/-80/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033923.214] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033923.225] [berjalan] BLE1: durasi=375s capture_mentah=2609 unik=188 estimasi_P_sent=188 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033923.231] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033923.237] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033923.245] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033923.728] D,BLE1,188,1230646,1230646,0,7
+[1793033925.825] D,BLE1,189,1232742,1232742,0,7
+[1793033927.715] D,BLE1,190,1234633,1234633,0,7
+[1793033929.707] D,BLE1,191,1236625,1236625,0,7
+[1793033931.826] D,BLE1,192,1238744,1238744,0,7
+[1793033933.210] G,1240124,BLE1=73/6750/320/-68/-80/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033933.215] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033933.226] [berjalan] BLE1: durasi=385s capture_mentah=2682 unik=193 estimasi_P_sent=193 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033933.232] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033933.237] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033933.246] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033933.909] D,BLE1,193,1240826,1240826,0,7
+[1793033935.706] D,BLE1,194,1242624,1242624,0,7
+[1793033937.801] D,BLE1,195,1244719,1244719,0,7
+[1793033939.710] D,BLE1,196,1246628,1246628,0,7
+[1793033941.720] D,BLE1,197,1248638,1248638,0,7
+[1793033943.211] G,1250125,BLE1=67/6817/339/-68/-81/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033943.217] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033943.227] [berjalan] BLE1: durasi=395s capture_mentah=2749 unik=198 estimasi_P_sent=198 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033943.232] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033943.238] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033943.247] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033943.801] D,BLE1,198,1250718,1250718,0,7
+[1793033945.788] D,BLE1,199,1252706,1252706,0,7
+[1793033947.791] D,BLE1,200,1254709,1254709,0,7
+[1793033949.807] D,BLE1,201,1256725,1256725,0,7
+[1793033951.716] D,BLE1,202,1258634,1258634,0,7
+[1793033953.212] G,1260126,BLE1=75/6892/270/-69/-81/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033953.217] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033953.228] [berjalan] BLE1: durasi=405s capture_mentah=2824 unik=203 estimasi_P_sent=203 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033953.233] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033953.239] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033953.247] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033953.896] D,BLE1,203,1260814,1260814,0,7
+[1793033955.801] D,BLE1,204,1262719,1262719,0,7
+[1793033957.907] D,BLE1,205,1264825,1264825,0,7
+[1793033959.801] D,BLE1,206,1266719,1266719,0,7
+[1793033961.905] D,BLE1,207,1268823,1268823,0,7
+[1793033963.212] G,1270127,BLE1=70/6962/300/-68/-78/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033963.218] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033963.228] [berjalan] BLE1: durasi=415s capture_mentah=2894 unik=208 estimasi_P_sent=208 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033963.235] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033963.240] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033963.248] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033963.901] D,BLE1,208,1270819,1270819,0,7
+[1793033965.787] D,BLE1,209,1272705,1272705,0,7
+[1793033967.874] D,BLE1,210,1274792,1274792,0,7
+[1793033969.796] D,BLE1,211,1276714,1276714,0,7
+[1793033971.725] D,BLE1,212,1278643,1278643,0,7
+[1793033973.213] G,1280128,BLE1=72/7034/303/-68/-78/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033973.219] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033973.229] [berjalan] BLE1: durasi=425s capture_mentah=2966 unik=213 estimasi_P_sent=213 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033973.235] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033973.241] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033973.249] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033973.812] D,BLE1,213,1280731,1280731,0,7
+[1793033975.915] D,BLE1,214,1282833,1282833,0,7
+[1793033977.803] D,BLE1,215,1284721,1284721,0,7
+[1793033979.896] D,BLE1,216,1286814,1286814,0,7
+[1793033981.796] D,BLE1,217,1288714,1288714,0,7
+[1793033983.214] G,1290129,BLE1=68/7102/313/-68/-78/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033983.219] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033983.230] [berjalan] BLE1: durasi=435s capture_mentah=3034 unik=218 estimasi_P_sent=218 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033983.236] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033983.242] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033983.250] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033983.711] D,BLE1,218,1290630,1290630,0,7
+[1793033985.816] D,BLE1,219,1292735,1292735,0,7
+[1793033987.916] D,BLE1,220,1294835,1294835,0,7
+[1793033989.796] D,BLE1,221,1296714,1296714,0,7
+[1793033991.896] D,BLE1,222,1298814,1298814,0,7
+[1793033993.215] G,1300130,BLE1=72/7174/311/-68/-77/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793033993.220] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793033993.231] [berjalan] BLE1: durasi=445s capture_mentah=3106 unik=223 estimasi_P_sent=223 hilang=0 seqMiss=0 PLR~=0.00%
+[1793033993.237] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793033993.243] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793033993.251] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793033993.796] D,BLE1,223,1300714,1300714,0,7
+[1793033995.885] D,BLE1,224,1302802,1302802,0,7
+[1793033997.877] D,BLE1,225,1304796,1304796,0,7
+[1793033999.796] D,BLE1,226,1306714,1306714,0,7
+[1793034001.795] D,BLE1,227,1308714,1308714,0,7
+[1793034003.216] G,1310131,BLE1=70/7244/332/-68/-79/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793034003.221] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793034003.232] [berjalan] BLE1: durasi=455s capture_mentah=3176 unik=228 estimasi_P_sent=228 hilang=0 seqMiss=0 PLR~=0.00%
+[1793034003.238] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793034003.243] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793034003.251] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793034003.878] D,BLE1,228,1310797,1310797,0,7
+[1793034005.795] D,BLE1,229,1312714,1312714,0,7
+[1793034007.753] D,BLE1,230,1314672,1314672,0,7
+[1793034009.895] D,BLE1,231,1316814,1316814,0,7
+[1793034011.784] D,BLE1,232,1318703,1318703,0,7
+[1793034013.217] G,1320132,BLE1=64/7308/338/-68/-79/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793034013.222] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793034013.233] [berjalan] BLE1: durasi=465s capture_mentah=3240 unik=233 estimasi_P_sent=233 hilang=0 seqMiss=0 PLR~=0.00%
+[1793034013.238] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793034013.244] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793034013.253] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793034013.780] D,BLE1,233,1320699,1320699,0,7
+[1793034015.801] D,BLE1,234,1322720,1322720,0,7
+[1793034017.921] D,BLE1,235,1324840,1324840,0,7
+[1793034019.712] D,BLE1,236,1326630,1326630,0,7
+[1793034021.825] D,BLE1,237,1328743,1328743,0,7
+[1793034023.217] G,1330133,BLE1=66/7374/318/-68/-79/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793034023.223] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793034023.234] [berjalan] BLE1: durasi=475s capture_mentah=3306 unik=238 estimasi_P_sent=238 hilang=0 seqMiss=0 PLR~=0.00%
+[1793034023.239] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793034023.245] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793034023.253] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793034023.711] D,BLE1,238,1330629,1330629,0,7
+[1793034025.791] D,BLE1,239,1332710,1332710,0,7
+[1793034027.883] D,BLE1,240,1334802,1334802,0,7
+[1793034029.776] D,BLE1,241,1336695,1336695,0,7
+[1793034031.768] D,BLE1,242,1338687,1338687,0,7
+[1793034033.219] G,1340134,BLE1=64/7438/304/-68/-78/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793034033.224] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793034033.234] [berjalan] BLE1: durasi=485s capture_mentah=3370 unik=243 estimasi_P_sent=243 hilang=0 seqMiss=0 PLR~=0.00%
+[1793034033.240] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793034033.246] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793034033.254] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793034033.874] D,BLE1,243,1340792,1340792,0,7
+[1793034035.795] D,BLE1,244,1342714,1342714,0,7
+[1793034037.795] D,BLE1,245,1344714,1344714,0,7
+[1793034039.900] D,BLE1,246,1346819,1346819,0,7
+[1793034041.795] D,BLE1,247,1348714,1348714,0,7
+[1793034043.219] G,1350135,BLE1=70/7508/315/-68/-79/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793034043.225] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793034043.235] [berjalan] BLE1: durasi=495s capture_mentah=3440 unik=248 estimasi_P_sent=248 hilang=0 seqMiss=0 PLR~=0.00%
+[1793034043.241] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793034043.247] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793034043.255] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793034043.809] D,BLE1,248,1350729,1350729,0,7
+[1793034045.818] D,BLE1,249,1352738,1352738,0,7
+[1793034047.731] D,BLE1,250,1354650,1354650,0,7
+[1793034049.793] D,BLE1,251,1356713,1356713,0,7
+[1793034051.807] D,BLE1,252,1358725,1358725,0,7
+[1793034053.220] G,1360136,BLE1=65/7573/264/-67/-77/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793034053.225] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793034053.236] [berjalan] BLE1: durasi=505s capture_mentah=3505 unik=253 estimasi_P_sent=253 hilang=0 seqMiss=0 PLR~=0.00%
+[1793034053.242] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793034053.248] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793034053.256] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793034053.904] D,BLE1,253,1360823,1360823,0,7
+[1793034055.813] D,BLE1,254,1362732,1362732,0,7
+[1793034057.804] D,BLE1,255,1364723,1364723,0,7
+[1793034059.938] D,BLE1,256,1366857,1366857,0,7
+[1793034061.809] D,BLE1,257,1368729,1368729,0,7
+[1793034063.221] G,1370137,BLE1=63/7636/313/-68/-79/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793034063.226] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793034063.237] [berjalan] BLE1: durasi=515s capture_mentah=3568 unik=258 estimasi_P_sent=258 hilang=0 seqMiss=0 PLR~=0.00%
+[1793034063.243] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793034063.249] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793034063.257] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793034063.895] D,BLE1,258,1370814,1370814,0,7
+[1793034065.773] D,BLE1,259,1372693,1372693,0,7
+[1793034067.794] D,BLE1,260,1374714,1374714,0,7
+[1793034069.871] D,BLE1,261,1376791,1376791,0,7
+[1793034071.748] D,BLE1,262,1378668,1378668,0,7
+[1793034073.222] G,1380138,BLE1=68/7704/300/-68/-79/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793034073.227] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793034073.238] [berjalan] BLE1: durasi=525s capture_mentah=3636 unik=263 estimasi_P_sent=263 hilang=0 seqMiss=0 PLR~=0.00%
+[1793034073.244] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793034073.249] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793034073.258] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793034073.734] D,BLE1,263,1380654,1380654,0,7
+[1793034075.838] D,BLE1,264,1382758,1382758,0,7
+[1793034077.723] D,BLE1,265,1384643,1384643,0,7
+[1793034079.795] D,BLE1,266,1386714,1386714,0,7
+[1793034081.809] D,BLE1,267,1388729,1388729,0,7
+[1793034083.223] G,1390139,BLE1=66/7770/409/-68/-77/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793034083.228] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793034083.239] [berjalan] BLE1: durasi=535s capture_mentah=3702 unik=268 estimasi_P_sent=268 hilang=0 seqMiss=0 PLR~=0.00%
+[1793034083.245] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793034083.250] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793034083.258] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793034083.795] D,BLE1,268,1390714,1390714,0,7
+[1793034086.001] D,BLE1,269,1392921,1392921,0,7
+[1793034087.880] D,BLE1,270,1394800,1394800,0,7
+[1793034089.794] D,BLE1,271,1396714,1396714,0,7
+[1793034091.794] D,BLE1,272,1398714,1398714,0,7
+[1793034093.223] G,1400140,BLE1=64/7834/413/-67/-77/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793034093.229] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793034093.240] [berjalan] BLE1: durasi=545s capture_mentah=3766 unik=273 estimasi_P_sent=273 hilang=0 seqMiss=0 PLR~=0.00%
+[1793034093.246] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793034093.251] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793034093.260] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793034093.894] D,BLE1,273,1400814,1400814,0,7
+[1793034095.903] D,BLE1,274,1402822,1402822,0,7
+[1793034097.789] D,BLE1,275,1404709,1404709,0,7
+[1793034099.901] D,BLE1,276,1406822,1406822,0,7
+[1793034101.794] D,BLE1,277,1408714,1408714,0,7
+[1793034103.224] G,1410141,BLE1=71/7905/286/-67/-77/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793034103.230] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793034103.240] [berjalan] BLE1: durasi=555s capture_mentah=3837 unik=278 estimasi_P_sent=278 hilang=0 seqMiss=0 PLR~=0.00%
+[1793034103.247] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793034103.252] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793034103.260] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793034103.798] D,BLE1,278,1410718,1410718,0,7
+[1793034105.887] D,BLE1,279,1412807,1412807,0,7
+[1793034107.714] D,BLE1,280,1414634,1414634,0,7
+[1793034109.812] D,BLE1,281,1416732,1416732,0,7
+[1793034111.799] D,BLE1,282,1418719,1418719,0,7
+[1793034113.225] G,1420142,BLE1=67/7972/317/-67/-77/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793034113.231] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793034113.241] [berjalan] BLE1: durasi=565s capture_mentah=3904 unik=283 estimasi_P_sent=283 hilang=0 seqMiss=0 PLR~=0.00%
+[1793034113.247] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793034113.253] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793034113.261] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793034113.789] D,BLE1,283,1420710,1420710,0,7
+[1793034115.782] D,BLE1,284,1422702,1422702,0,7
+[1793034117.872] D,BLE1,285,1424792,1424792,0,7
+[1793034119.765] D,BLE1,286,1426685,1426685,0,7
+[1793034121.877] D,BLE1,287,1428798,1428798,0,7
+[1793034123.226] G,1430143,BLE1=65/8037/315/-67/-77/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793034123.232] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793034123.242] [berjalan] BLE1: durasi=575s capture_mentah=3970 unik=288 estimasi_P_sent=288 hilang=0 seqMiss=0 PLR~=0.00%
+[1793034123.248] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793034123.254] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793034123.262] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793034123.854] D,BLE1,288,1430775,1430775,0,7
+[1793034125.960] D,BLE1,289,1432880,1432880,0,7
+[1793034127.754] D,BLE1,290,1434674,1434674,0,7
+[1793034129.894] D,BLE1,291,1436814,1436814,0,7
+[1793034131.762] D,BLE1,292,1438682,1438682,0,7
+[1793034133.227] G,1440144,BLE1=71/8108/419/-68/-77/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793034133.232] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793034133.243] [berjalan] BLE1: durasi=585s capture_mentah=4040 unik=293 estimasi_P_sent=293 hilang=0 seqMiss=0 PLR~=0.00%
+[1793034133.249] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793034133.255] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793034133.263] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793034133.744] D,BLE1,293,1440664,1440664,0,7
+[1793034135.838] D,BLE1,294,1442759,1442759,0,7
+[1793034137.714] D,BLE1,295,1444635,1444635,0,7
+[1793034139.808] D,BLE1,296,1446728,1446728,0,7
+[1793034141.817] D,BLE1,297,1448738,1448738,0,7
+[1793034143.228] G,1450145,BLE1=64/8172/350/-68/-77/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793034143.233] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793034143.244] [berjalan] BLE1: durasi=595s capture_mentah=4104 unik=298 estimasi_P_sent=298 hilang=0 seqMiss=0 PLR~=0.00%
+[1793034143.250] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793034143.256] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793034143.264] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793034143.720] D,BLE1,298,1450640,1450640,0,7
+[1793034145.893] D,BLE1,299,1452814,1452814,0,7
+[1793034153.229] G,1460146,BLE1=29/8201/393/-68/-76/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793034153.234] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793034153.245] [berjalan] BLE1: durasi=599s capture_mentah=4133 unik=300 estimasi_P_sent=300 hilang=0 seqMiss=0 PLR~=0.00%
+[1793034153.251] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793034153.256] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793034153.265] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793034163.229] G,1470147,BLE1=0/8201/0/0/0/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793034163.235] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793034163.243] [berjalan] BLE1: durasi=599s capture_mentah=4133 unik=300 estimasi_P_sent=300 hilang=0 seqMiss=0 PLR~=0.00%
+[1793034163.251] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793034163.257] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793034163.265] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)
+[1793034173.230] G,1480148,BLE1=0/8201/0/0/0/0,BLE2=0/0/0/0/0/0,BLE3=0/0/0/0/0/0,BLE4=0/0/0/0/0/0
+[1793034173.236] === RINGKASAN RUN BERJALAN (BLE-only, tanpa Wi-Fi/MQTT) ===
+[1793034173.244] [berjalan] BLE1: durasi=599s capture_mentah=4133 unik=300 estimasi_P_sent=300 hilang=0 seqMiss=0 PLR~=0.00%
+[1793034173.252] (P_sent estimasi = seq terbesar+1; angka resmi = P_sent di node saat SELESAI.
+[1793034173.258] Bila run berakhir, baris 'RINGKASAN RUN SELESAI' dicetak otomatis saat node
+[1793034173.265] memulai run berikutnya, atau baca baris [berjalan] terakhir setelah node SELESAI.)

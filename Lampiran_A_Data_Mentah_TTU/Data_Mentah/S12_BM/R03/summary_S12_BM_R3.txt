@@ -1,0 +1,43 @@
+=== HASIL SESI: S12_BM_R3 ===
+Tanggal/jam: 2026-10-23 01:36:22 | Skenario: 12 | Repetisi: 3 | Arsitektur: Bare Metal
+Payload: 32 B | Node BLE: 4 | Interval BLE: 100 ms | Interval LoRa: 8 s | Interval iklan: 20 ms
+Kanal Wi-Fi: 7 | Jaringan sekitar: 3 | Posisi node: 2 | Catatan: -
+Sumber   P_sent  P_recv  Hilang    PLR% |  Lat avg    p50    p95    max (ms)  Kategori TIPHON
+---------------------------------------------------------------------------------------------
+LORA1        75      74       1    1.33 |      2.3      2      3      4  Sangat baik  payload teramati=[32]B
+BLE1       6000    3424    2576   42.93 |      2.2      1      4    227  Buruk  payload teramati=[32]B
+BLE2       6000    3617    2383   39.72 |      2.3      1     10    154  Buruk  payload teramati=[32]B
+BLE3       6000    3260    2740   45.67 |      2.0      1      2    210  Buruk  payload teramati=[32]B
+BLE4       6000    2140    3860   64.33 |      2.5      1     11    231  Buruk  payload teramati=[32]B
+---------------------------------------------------------------------------------------------
+LoRa         75      74       1    1.33 |      2.3      2      3      4  Sangat baik
+BLE       24000   12441   11559   48.16 |      2.2      1      6    231  Buruk
+TOTAL     24075   12515   11560   48.02 |      2.2      1      6    231  Buruk
+
+Kategori TIPHON (Tabel 4): <3% sangat baik | 3-<15% baik | 15-<25% sedang | >=25% buruk
+
+Nomor urut yang hilang:
+  LORA1: 1 hilang, contoh seq: [3]
+  BLE1: 2576 hilang, contoh seq: [2, 5, 8, 11, 14, 17, 20, 23, 25, 26, 35, 36, 37, 42, 44, 47, 50, 51, 53, 56, 59, 61, 62, 65, 68, 71, 74, 75, 77, 80] ...
+  BLE2: 2383 hilang, contoh seq: [0, 3, 6, 10, 12, 14, 15, 20, 23, 24, 27, 30, 34, 39, 42, 44, 45, 46, 48, 50, 51, 52, 54, 57, 60, 64, 65, 67, 69, 72] ...
+  BLE3: 2740 hilang, contoh seq: [0, 1, 2, 3, 4, 7, 14, 17, 20, 23, 25, 26, 29, 32, 35, 37, 38, 39, 42, 43, 48, 49, 52, 55, 57, 59, 61, 62, 65, 68] ...
+  BLE4: 3860 hilang, contoh seq: [0, 1, 4, 6, 7, 10, 11, 12, 13, 16, 17, 19, 20, 23, 24, 25, 26, 28, 29, 30, 31, 33, 34, 36, 37, 39, 40, 42, 43, 45] ...
+
+Letak paket yang hilang (Tabel 22) -- gateway melapor arch=BM:
+  Sumber   P_sent  diterima gw  hilang radio  tertimpa di mailbox  dipublish gw
+  LORA1        75           74             1                    0            74
+  BLE1       6000         3426          2574                    2          3424
+  BLE2       6000         3618          2382                    1          3617
+  BLE3       6000         3266          2734                    6          3260
+  BLE4       6000         2141          3859                    1          2140
+  TOTAL: hilang di radio=11550 | hilang di program=10 | gagal publish=0
+  Payload 32 B: iklan lengkap (utama + scan response)=15406, tanpa scan response=2997
+
+Diagnostik radio BLE (baris G, gateway):
+  BLE1: iklan tertangkap=4669 | capture rate=19.1% | seq terlewat di radio=2571 | celah terlama=727 ms | RSSI rata2=-85 dBm, terlemah=-89 dBm
+  BLE2: iklan tertangkap=5238 | capture rate=21.5% | seq terlewat di radio=2381 | celah terlama=627 ms | RSSI rata2=-68 dBm, terlemah=-98 dBm
+  BLE3: iklan tertangkap=4829 | capture rate=19.8% | seq terlewat di radio=2729 | celah terlama=615 ms | RSSI rata2=-68 dBm, terlemah=-109 dBm
+  BLE4: iklan tertangkap=3660 | capture rate=15.0% | seq terlewat di radio=3857 | celah terlama=814 ms | RSSI rata2=-67 dBm, terlemah=-104 dBm
+Scan BLE restart selama sesi: 0x
+
+File sesi: summary_S12_BM_R3.txt, result_S12_BM_R3.json, mqtt_S12_BM_R3.csv, latency_S12_BM_R3.csv, serial_raw_S12_BM_R3.log (folder 'hasil\S12_BM\R03')

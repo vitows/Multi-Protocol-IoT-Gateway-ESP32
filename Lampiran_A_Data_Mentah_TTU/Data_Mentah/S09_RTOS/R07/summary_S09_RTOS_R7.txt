@@ -1,0 +1,35 @@
+=== HASIL SESI: S09_RTOS_R7 ===
+Tanggal/jam: 2026-10-25 15:39:05 | Skenario: 9 | Repetisi: 7 | Arsitektur: FreeRTOS
+Payload: 7 B | Node BLE: 4 | Interval BLE: 1000 ms | Interval LoRa: 4 s | Interval iklan: 20 ms
+Kanal Wi-Fi: 7 | Jaringan sekitar: 4 | Posisi node: 2 | Catatan: -
+Sumber   P_sent  P_recv  Hilang    PLR% |  Lat avg    p50    p95    max (ms)  Kategori TIPHON
+---------------------------------------------------------------------------------------------
+LORA1       150     150       0    0.00 |      1.4      1      2      3  Sangat baik  payload teramati=[7]B
+BLE1        600     600       0    0.00 |      1.0      1      1     29  Sangat baik  payload teramati=[7]B
+BLE2        600     600       0    0.00 |      1.0      1      1      2  Sangat baik  payload teramati=[7]B
+BLE3        600     600       0    0.00 |      1.0      1      1      2  Sangat baik  payload teramati=[7]B
+BLE4        600     600       0    0.00 |      1.0      1      1      2  Sangat baik  payload teramati=[7]B
+---------------------------------------------------------------------------------------------
+LoRa        150     150       0    0.00 |      1.4      1      2      3  Sangat baik
+BLE        2400    2400       0    0.00 |      1.0      1      1     29  Sangat baik
+TOTAL      2550    2550       0    0.00 |      1.0      1      1     29  Sangat baik
+
+Kategori TIPHON (Tabel 4): <3% sangat baik | 3-<15% baik | 15-<25% sedang | >=25% buruk
+
+Letak paket yang hilang (Tabel 22) -- gateway melapor arch=RTOS:
+  Sumber   P_sent  diterima gw  hilang radio      dibuang antrean  dipublish gw
+  LORA1       150          150             0                    0           150
+  BLE1        600          600             0                    0           600
+  BLE2        600          600             0                    0           600
+  BLE3        600          600             0                    0           600
+  BLE4        600          600             0                    0           600
+  TOTAL: hilang di radio=0 | hilang di program=0 | gagal publish=0 | antrean maks (qmax)=384
+
+Diagnostik radio BLE (baris G, gateway):
+  BLE1: iklan tertangkap=4712 | capture rate=19.2% | seq terlewat di radio=0 | celah terlama=615 ms | RSSI rata2=-92 dBm, terlemah=-98 dBm
+  BLE2: iklan tertangkap=4510 | capture rate=18.4% | seq terlewat di radio=0 | celah terlama=809 ms | RSSI rata2=-71 dBm, terlemah=-83 dBm
+  BLE3: iklan tertangkap=4843 | capture rate=19.8% | seq terlewat di radio=0 | celah terlama=527 ms | RSSI rata2=-70 dBm, terlemah=-82 dBm
+  BLE4: iklan tertangkap=5027 | capture rate=20.5% | seq terlewat di radio=0 | celah terlama=614 ms | RSSI rata2=-66 dBm, terlemah=-82 dBm
+Scan BLE restart selama sesi: 0x
+
+File sesi: summary_S09_RTOS_R7.txt, result_S09_RTOS_R7.json, mqtt_S09_RTOS_R7.csv, latency_S09_RTOS_R7.csv, serial_raw_S09_RTOS_R7.log (folder 'hasil\S09_RTOS\R07')

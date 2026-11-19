@@ -1,0 +1,25 @@
+=== HASIL SESI: P3_R1 ===
+Tanggal/jam: 2026-10-26 23:41:29 | Skenario: - | Repetisi: 1 | Arsitektur: -
+Payload: 7 B | Node BLE: 1 | Interval BLE: 2000 ms | Interval LoRa: - s | Interval iklan: 100 ms
+Kanal Wi-Fi: 7 | Jaringan sekitar: 2 | Posisi node: 2 | Catatan: -
+UJI PENDAHULUAN P3: Iklan 100 ms, tanpa Wi-Fi | gateway: Gateway_BLE_Only_Test | pengaturan radio terverifikasi
+Sumber   P_sent  P_recv  Hilang    PLR% |  Lat avg    p50    p95    max (ms)  Kategori TIPHON
+---------------------------------------------------------------------------------------------
+BLE1        300     299       1    0.33 |        -      -      -      -  Sangat baik  payload teramati=[7]B
+---------------------------------------------------------------------------------------------
+BLE         300     299       1    0.33 |        -      -      -      -  Sangat baik
+TOTAL       300     299       1    0.33 |        -      -      -      -  Sangat baik
+
+Kategori TIPHON (Tabel 4): <3% sangat baik | 3-<15% baik | 15-<25% sedang | >=25% buruk
+
+Nomor urut yang hilang:
+  BLE1: 1 hilang, contoh seq: [0]
+
+Diagnostik radio BLE (baris G, gateway):
+  BLE1: iklan tertangkap=4056 | capture rate=69.8% | seq terlewat di radio=0 | celah terlama=539 ms | RSSI rata2=-68 dBm, terlemah=-91 dBm
+Scan BLE restart selama sesi: 0x
+
+Baris tabel uji pendahuluan (Kode | Kondisi | P_sent | P_receive | PLR BLE | Rasio penerimaan iklan | Celah terlama):
+  P3 | Iklan 100 ms, tanpa Wi-Fi | 300 | 299 | 0,33% | 69,8% | 539 ms
+
+File sesi: summary_P3_R1.txt, result_P3_R1.json, mqtt_P3_R1.csv, latency_P3_R1.csv, serial_raw_P3_R1.log (folder 'hasil\PENDAHULUAN\P3\R01')

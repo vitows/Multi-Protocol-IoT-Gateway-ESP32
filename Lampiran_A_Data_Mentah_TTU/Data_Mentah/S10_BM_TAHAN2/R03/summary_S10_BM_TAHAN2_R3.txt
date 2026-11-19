@@ -1,0 +1,51 @@
+=== HASIL SESI: S10_BM_TAHAN2_R3 ===
+Tanggal/jam: 2026-10-24 15:43:12 | Skenario: 10 | Repetisi: 3 | Arsitektur: Bare Metal
+Payload: 7 B | Node BLE: 4 | Interval BLE: 500 ms | Interval LoRa: 4 s | Interval iklan: 20 ms
+Kanal Wi-Fi: 7 | Jaringan sekitar: 4 | Posisi node: 2 | Catatan: -
+UJI GANGGUAN: TAHAN 2 s setiap 30 s (17 kali)
+Sumber   P_sent  P_recv  Hilang    PLR% |  Lat avg    p50    p95    max (ms)  Kategori TIPHON
+---------------------------------------------------------------------------------------------
+LORA1       150     150       0    0.00 |     38.7      1      2   3278  Sangat baik  payload teramati=[7]B
+BLE1       1200    1186      14    1.17 |      6.7      1      6   4578  Sangat baik  payload teramati=[7]B
+BLE2       1200    1187      13    1.08 |      1.6      1      1    391  Sangat baik  payload teramati=[7]B
+BLE3       1200    1185      15    1.25 |      1.6      1      1    269  Sangat baik  payload teramati=[7]B
+BLE4       1200    1184      16    1.33 |      3.2      1     17    575  Sangat baik  payload teramati=[7]B
+---------------------------------------------------------------------------------------------
+LoRa        150     150       0    0.00 |     38.7      1      2   3278  Sangat baik
+BLE        4800    4742      58    1.21 |      3.3      1      2   4578  Sangat baik
+TOTAL      4950    4892      58    1.17 |      4.4      1      2   4578  Sangat baik
+
+Kategori TIPHON (Tabel 4): <3% sangat baik | 3-<15% baik | 15-<25% sedang | >=25% buruk
+
+Nomor urut yang hilang:
+  BLE1: 14 hilang, contoh seq: [759, 825, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1150, 1151, 1152, 1153, 1154]
+  BLE2: 13 hilang, contoh seq: [1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1149, 1150, 1151, 1152, 1153]
+  BLE3: 15 hilang, contoh seq: [998, 999, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1147, 1148, 1149, 1150, 1151, 1152]
+  BLE4: 16 hilang, contoh seq: [337, 704, 997, 998, 999, 1000, 1001, 1002, 1003, 1004, 1005, 1146, 1147, 1148, 1149, 1150]
+
+Letak paket yang hilang (Tabel 22) -- gateway melapor arch=BM:
+  Sumber   P_sent  diterima gw  hilang radio  tertimpa di mailbox  dipublish gw
+  LORA1       150          150             0                    0           150
+  BLE1       1200         1198             2                   12          1186
+  BLE2       1200         1200             0                   13          1187
+  BLE3       1200         1200             0                   15          1185
+  BLE4       1200         1198             2                   14          1184
+  TOTAL: hilang di radio=4 | hilang di program=54 | gagal publish=0
+
+Uji gangguan jaringan (tahan 2 s tiap 30 s, 17 kali):
+  Paket hilang SAAT gangguan (termasuk masa pulih)=0 | di luar gangguan=58 | terlambat >1 s tetapi sampai=150
+  Waktu pulih (gangguan selesai -> paket pertama tiba lagi): rata-rata 0.01 s, maks 0.03 s  [0.03, 0.02, 0.02, 0.01, 0.01, 0.01, 0.02, 0.01, 0.02, 0.01, 0.01, 0.02, 0.02, 0.02, 0.0, 0.01, 0.01]
+  LORA1: hilang saat gangguan=0, di luar=0, terlambat=2
+  BLE1: hilang saat gangguan=0, di luar=14, terlambat=36
+  BLE2: hilang saat gangguan=0, di luar=13, terlambat=38
+  BLE3: hilang saat gangguan=0, di luar=15, terlambat=39
+  BLE4: hilang saat gangguan=0, di luar=16, terlambat=35
+
+Diagnostik radio BLE (baris G, gateway):
+  BLE1: iklan tertangkap=3990 | capture rate=16.3% | seq terlewat di radio=2 | celah terlama=720 ms | RSSI rata2=-93 dBm, terlemah=-102 dBm
+  BLE2: iklan tertangkap=5326 | capture rate=21.8% | seq terlewat di radio=0 | celah terlama=513 ms | RSSI rata2=-66 dBm, terlemah=-101 dBm
+  BLE3: iklan tertangkap=5232 | capture rate=21.4% | seq terlewat di radio=0 | celah terlama=545 ms | RSSI rata2=-67 dBm, terlemah=-97 dBm
+  BLE4: iklan tertangkap=3537 | capture rate=14.5% | seq terlewat di radio=2 | celah terlama=707 ms | RSSI rata2=-68 dBm, terlemah=-96 dBm
+Scan BLE restart selama sesi: 0x
+
+File sesi: summary_S10_BM_TAHAN2_R3.txt, result_S10_BM_TAHAN2_R3.json, mqtt_S10_BM_TAHAN2_R3.csv, latency_S10_BM_TAHAN2_R3.csv, serial_raw_S10_BM_TAHAN2_R3.log (folder 'hasil\S10_BM_TAHAN2\R03')

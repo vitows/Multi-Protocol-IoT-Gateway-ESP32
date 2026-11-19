@@ -1,0 +1,32 @@
+=== HASIL SESI: S06_BM_R7 ===
+Tanggal/jam: 2026-10-22 02:57:55 | Skenario: 6 | Repetisi: 7 | Arsitektur: Bare Metal
+Payload: 7 B | Node BLE: 3 | Interval BLE: 2000 ms | Interval LoRa: 4 s | Interval iklan: 20 ms
+Kanal Wi-Fi: 7 | Jaringan sekitar: 4 | Posisi node: 2 | Catatan: -
+Sumber   P_sent  P_recv  Hilang    PLR% |  Lat avg    p50    p95    max (ms)  Kategori TIPHON
+---------------------------------------------------------------------------------------------
+LORA1       150     150       0    0.00 |      1.5      1      2      2  Sangat baik  payload teramati=[7]B
+BLE1        300     300       0    0.00 |      3.7      1     20     28  Sangat baik  payload teramati=[7]B
+BLE2        300     300       0    0.00 |      2.3      1     13     28  Sangat baik  payload teramati=[7]B
+BLE3        300     300       0    0.00 |      2.6      1     16     28  Sangat baik  payload teramati=[7]B
+---------------------------------------------------------------------------------------------
+LoRa        150     150       0    0.00 |      1.5      1      2      2  Sangat baik
+BLE         900     900       0    0.00 |      2.8      1     17     28  Sangat baik
+TOTAL      1050    1050       0    0.00 |      2.7      1     16     28  Sangat baik
+
+Kategori TIPHON (Tabel 4): <3% sangat baik | 3-<15% baik | 15-<25% sedang | >=25% buruk
+
+Letak paket yang hilang (Tabel 22) -- gateway melapor arch=BM:
+  Sumber   P_sent  diterima gw  hilang radio  tertimpa di mailbox  dipublish gw
+  LORA1       150          150             0                    0           150
+  BLE1        300          300             0                    0           300
+  BLE2        300          300             0                    0           300
+  BLE3        300          300             0                    0           300
+  TOTAL: hilang di radio=0 | hilang di program=0 | gagal publish=0
+
+Diagnostik radio BLE (baris G, gateway):
+  BLE1: iklan tertangkap=5119 | capture rate=21.0% | seq terlewat di radio=0 | celah terlama=717 ms | RSSI rata2=-89 dBm, terlemah=-95 dBm
+  BLE2: iklan tertangkap=4157 | capture rate=17.0% | seq terlewat di radio=0 | celah terlama=616 ms | RSSI rata2=-69 dBm, terlemah=-80 dBm
+  BLE3: iklan tertangkap=4237 | capture rate=17.4% | seq terlewat di radio=0 | celah terlama=611 ms | RSSI rata2=-74 dBm, terlemah=-85 dBm
+Scan BLE restart selama sesi: 0x
+
+File sesi: summary_S06_BM_R7.txt, result_S06_BM_R7.json, mqtt_S06_BM_R7.csv, latency_S06_BM_R7.csv, serial_raw_S06_BM_R7.log (folder 'hasil\S06_BM\R07')

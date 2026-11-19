@@ -1,0 +1,26 @@
+=== HASIL SESI: S02_RTOS_R4 ===
+Tanggal/jam: 2026-10-19 22:39:18 | Skenario: 2 | Repetisi: 4 | Arsitektur: FreeRTOS
+Payload: 16 B | Node BLE: 1 | Interval BLE: 2000 ms | Interval LoRa: 6 s | Interval iklan: 20 ms
+Kanal Wi-Fi: 7 | Jaringan sekitar: 7 | Posisi node: 2 | Catatan: -
+Sumber   P_sent  P_recv  Hilang    PLR% |  Lat avg    p50    p95    max (ms)  Kategori TIPHON
+---------------------------------------------------------------------------------------------
+LORA1       100     100       0    0.00 |      1.8      2      2      3  Sangat baik  payload teramati=[16]B
+BLE1        300     300       0    0.00 |      1.1      1      2      2  Sangat baik  payload teramati=[16]B
+---------------------------------------------------------------------------------------------
+LoRa        100     100       0    0.00 |      1.8      2      2      3  Sangat baik
+BLE         300     300       0    0.00 |      1.1      1      2      2  Sangat baik
+TOTAL       400     400       0    0.00 |      1.2      1      2      3  Sangat baik
+
+Kategori TIPHON (Tabel 4): <3% sangat baik | 3-<15% baik | 15-<25% sedang | >=25% buruk
+
+Letak paket yang hilang (Tabel 22) -- gateway melapor arch=RTOS:
+  Sumber   P_sent  diterima gw  hilang radio      dibuang antrean  dipublish gw
+  LORA1       100          100             0                    0           100
+  BLE1        300          300             0                    0           300
+  TOTAL: hilang di radio=0 | hilang di program=0 | gagal publish=0 | antrean maks (qmax)=28
+
+Diagnostik radio BLE (baris G, gateway):
+  BLE1: iklan tertangkap=5253 | capture rate=21.4% | seq terlewat di radio=0 | celah terlama=612 ms | RSSI rata2=-94 dBm, terlemah=-101 dBm
+Scan BLE restart selama sesi: 0x
+
+File sesi: summary_S02_RTOS_R4.txt, result_S02_RTOS_R4.json, mqtt_S02_RTOS_R4.csv, latency_S02_RTOS_R4.csv, serial_raw_S02_RTOS_R4.log (folder 'hasil\S02_RTOS\R04')

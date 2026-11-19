@@ -1,0 +1,155 @@
+{
+ "meta": {
+  "sesi": "P4_R3",
+  "skenario": null,
+  "rep": 3,
+  "arch": "RTOS",
+  "gangguan": null,
+  "gangguan_cfg": null,
+  "gangguan_events": null,
+  "jenis_uji": null,
+  "payload": 7,
+  "nodes": 1,
+  "send_ms": 2000,
+  "adv_ms": 100,
+  "lora_s": null,
+  "tanggal_jam": "2026-10-27 01:23:11",
+  "kanal_wifi": "7",
+  "jaringan_sekitar": "2",
+  "posisi_node": "2",
+  "pindaian_wifi": [
+   {
+    "ssid": "WiFi_Pengujian",
+    "channel": 7,
+    "signal": 52
+   },
+   {
+    "ssid": "WiFi_Lain_01",
+    "channel": 5,
+    "signal": 6
+   }
+  ],
+  "catatan": "",
+  "radio_gateway": "Radio: WIFI_NO_SLEEP=0 COEX_PREFER_BT=1",
+  "scan_restart": 0,
+  "pendahuluan": "P4",
+  "kondisi": "Iklan 100 ms, pengaturan Wi-Fi diubah",
+  "gateway_uji": "Gateway_FreeRTOS.ino dengan WIFI_NO_SLEEP 0 dan COEX_PREFER_BT 1",
+  "radio_terverifikasi": true
+ },
+ "hasil": {
+  "sumber": {
+   "BLE1": {
+    "p_sent": 300,
+    "p_recv": 268,
+    "hilang": 32,
+    "plr": 10.6667,
+    "tiphon": "Baik",
+    "latensi": {
+     "n": 268,
+     "mean": 1.0485074626865671,
+     "p50": 1,
+     "p95": 1,
+     "max": 2
+    },
+    "payload_teramati": [
+     7
+    ],
+    "duplikat_broker": 0,
+    "seq_hilang": [
+     15,
+     17,
+     19,
+     21,
+     38,
+     42,
+     53,
+     76,
+     78,
+     105,
+     108,
+     110,
+     118,
+     142,
+     148,
+     153,
+     164,
+     186,
+     199,
+     201,
+     203,
+     205,
+     224,
+     240,
+     243,
+     251,
+     255,
+     257,
+     267,
+     269,
+     275,
+     297
+    ],
+    "letak": {
+     "diterima_gateway": 268,
+     "hilang_radio": 32,
+     "hilang_program": 0,
+     "dipublish_gateway": 268
+    },
+    "radio": {
+     "aktif_s": 602,
+     "iklan_tertangkap": 1556,
+     "seq_terlewat_radio": 32,
+     "celah_terlama_ms": 4512,
+     "jendela_kosong": 0,
+     "rssi_avg": -90,
+     "rssi_min": -100,
+     "iklan_dipancarkan_est": 5731,
+     "capture_rate": 27.1,
+     "salinan_per_seq": 19.0
+    }
+   }
+  },
+  "protokol": {
+   "BLE": {
+    "p_sent": 300,
+    "p_recv": 268,
+    "plr": 10.6667,
+    "tiphon": "Baik",
+    "latensi": {
+     "n": 268,
+     "mean": 1.0485074626865671,
+     "p50": 1,
+     "p95": 1,
+     "max": 2
+    }
+   }
+  },
+  "total": {
+   "p_sent": 300,
+   "p_recv": 268,
+   "hilang": 32,
+   "plr": 10.6667,
+   "tiphon": "Baik",
+   "latensi": {
+    "n": 268,
+    "mean": 1.0485074626865671,
+    "p50": 1,
+    "p95": 1,
+    "max": 2
+   }
+  },
+  "letak_total": {
+   "hilang_radio": 32,
+   "hilang_program": 0,
+   "gagal_publish": 0,
+   "rawdrop": 0,
+   "qmax": 1,
+   "restok": 0,
+   "restmiss": 0,
+   "arch_gateway": "RTOS",
+   "baseline": true,
+   "catatan": null
+  }
+ }
+}

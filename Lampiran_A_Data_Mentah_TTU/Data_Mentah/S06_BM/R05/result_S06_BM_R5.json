@@ -1,0 +1,239 @@
+{
+ "meta": {
+  "sesi": "S06_BM_R5",
+  "skenario": 6,
+  "rep": 5,
+  "arch": "BM",
+  "jenis_uji": "Skalabilitas",
+  "payload": 7,
+  "nodes": 3,
+  "send_ms": 2000,
+  "adv_ms": 20,
+  "lora_s": 4,
+  "tanggal_jam": "2026-10-22 02:35:55",
+  "kanal_wifi": "7",
+  "jaringan_sekitar": "4",
+  "posisi_node": "2",
+  "pindaian_wifi": [
+   {
+    "ssid": "WiFi_Lain_01",
+    "channel": 4,
+    "signal": 9
+   },
+   {
+    "ssid": "WiFi_Lain_02",
+    "channel": 11,
+    "signal": 9
+   },
+   {
+    "ssid": "WiFi_Pengujian",
+    "channel": 7,
+    "signal": 80
+   },
+   {
+    "ssid": "WiFi_Lain_03",
+    "channel": 3,
+    "signal": 8
+   }
+  ],
+  "catatan": "",
+  "radio_gateway": null,
+  "scan_restart": 0
+ },
+ "hasil": {
+  "sumber": {
+   "LORA1": {
+    "p_sent": 150,
+    "p_recv": 149,
+    "hilang": 1,
+    "plr": 0.6667,
+    "tiphon": "Sangat baik",
+    "latensi": {
+     "n": 149,
+     "mean": 1.4899328859060403,
+     "p50": 1,
+     "p95": 2,
+     "max": 2
+    },
+    "payload_teramati": [
+     7
+    ],
+    "duplikat_broker": 0,
+    "seq_hilang": [
+     86
+    ],
+    "letak": {
+     "diterima_gateway": 149,
+     "hilang_radio": 1,
+     "hilang_program": 0,
+     "dipublish_gateway": 149
+    }
+   },
+   "BLE1": {
+    "p_sent": 300,
+    "p_recv": 300,
+    "hilang": 0,
+    "plr": 0.0,
+    "tiphon": "Sangat baik",
+    "latensi": {
+     "n": 300,
+     "mean": 3.28,
+     "p50": 1,
+     "p95": 19,
+     "max": 29
+    },
+    "payload_teramati": [
+     7
+    ],
+    "duplikat_broker": 0,
+    "seq_hilang": [],
+    "letak": {
+     "diterima_gateway": 300,
+     "hilang_radio": 0,
+     "hilang_program": 0,
+     "dipublish_gateway": 300
+    },
+    "radio": {
+     "aktif_s": 610,
+     "iklan_tertangkap": 5155,
+     "seq_terlewat_radio": 0,
+     "celah_terlama_ms": 618,
+     "jendela_kosong": 0,
+     "rssi_avg": -89,
+     "rssi_min": -94,
+     "iklan_dipancarkan_est": 24400,
+     "capture_rate": 21.1,
+     "salinan_per_seq": 80.0
+    }
+   },
+   "BLE2": {
+    "p_sent": 300,
+    "p_recv": 300,
+    "hilang": 0,
+    "plr": 0.0,
+    "tiphon": "Sangat baik",
+    "latensi": {
+     "n": 300,
+     "mean": 2.65,
+     "p50": 1,
+     "p95": 18,
+     "max": 28
+    },
+    "payload_teramati": [
+     7
+    ],
+    "duplikat_broker": 0,
+    "seq_hilang": [],
+    "letak": {
+     "diterima_gateway": 300,
+     "hilang_radio": 0,
+     "hilang_program": 0,
+     "dipublish_gateway": 300
+    },
+    "radio": {
+     "aktif_s": 610,
+     "iklan_tertangkap": 4665,
+     "seq_terlewat_radio": 0,
+     "celah_terlama_ms": 625,
+     "jendela_kosong": 0,
+     "rssi_avg": -69,
+     "rssi_min": -100,
+     "iklan_dipancarkan_est": 24400,
+     "capture_rate": 19.1,
+     "salinan_per_seq": 80.0
+    }
+   },
+   "BLE3": {
+    "p_sent": 300,
+    "p_recv": 300,
+    "hilang": 0,
+    "plr": 0.0,
+    "tiphon": "Sangat baik",
+    "latensi": {
+     "n": 300,
+     "mean": 2.486666666666667,
+     "p50": 1,
+     "p95": 15,
+     "max": 30
+    },
+    "payload_teramati": [
+     7
+    ],
+    "duplikat_broker": 0,
+    "seq_hilang": [],
+    "letak": {
+     "diterima_gateway": 300,
+     "hilang_radio": 0,
+     "hilang_program": 0,
+     "dipublish_gateway": 300
+    },
+    "radio": {
+     "aktif_s": 610,
+     "iklan_tertangkap": 4270,
+     "seq_terlewat_radio": 0,
+     "celah_terlama_ms": 735,
+     "jendela_kosong": 0,
+     "rssi_avg": -73,
+     "rssi_min": -83,
+     "iklan_dipancarkan_est": 24400,
+     "capture_rate": 17.5,
+     "salinan_per_seq": 80.0
+    }
+   }
+  },
+  "protokol": {
+   "LoRa": {
+    "p_sent": 150,
+    "p_recv": 149,
+    "plr": 0.6667,
+    "tiphon": "Sangat baik",
+    "latensi": {
+     "n": 149,
+     "mean": 1.4899328859060403,
+     "p50": 1,
+     "p95": 2,
+     "max": 2
+    }
+   },
+   "BLE": {
+    "p_sent": 900,
+    "p_recv": 900,
+    "plr": 0.0,
+    "tiphon": "Sangat baik",
+    "latensi": {
+     "n": 900,
+     "mean": 2.8055555555555554,
+     "p50": 1,
+     "p95": 18,
+     "max": 30
+    }
+   }
+  },
+  "total": {
+   "p_sent": 1050,
+   "p_recv": 1049,
+   "hilang": 1,
+   "plr": 0.0952,
+   "tiphon": "Sangat baik",
+   "latensi": {
+    "n": 1049,
+    "mean": 2.6186844613918017,
+    "p50": 1,
+    "p95": 17,
+    "max": 30
+   }
+  },
+  "letak_total": {
+   "hilang_radio": 1,
+   "hilang_program": 0,
+   "gagal_publish": 0,
+   "rawdrop": 0,
+   "qmax": null,
+   "restok": 0,
+   "restmiss": 0,
+   "arch_gateway": "BM",
+   "baseline": true,
+   "catatan": null
+  }
+ }
+}

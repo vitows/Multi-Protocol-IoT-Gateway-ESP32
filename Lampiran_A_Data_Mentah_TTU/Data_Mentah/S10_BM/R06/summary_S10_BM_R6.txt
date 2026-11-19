@@ -1,0 +1,40 @@
+=== HASIL SESI: S10_BM_R6 ===
+Tanggal/jam: 2026-10-25 21:32:04 | Skenario: 10 | Repetisi: 6 | Arsitektur: Bare Metal
+Payload: 7 B | Node BLE: 4 | Interval BLE: 500 ms | Interval LoRa: 4 s | Interval iklan: 20 ms
+Kanal Wi-Fi: 7 | Jaringan sekitar: 2 | Posisi node: 2 | Catatan: -
+Sumber   P_sent  P_recv  Hilang    PLR% |  Lat avg    p50    p95    max (ms)  Kategori TIPHON
+---------------------------------------------------------------------------------------------
+LORA1       150     149       1    0.67 |      1.4      1      2      2  Sangat baik  payload teramati=[7]B
+BLE1       1200    1188      12    1.00 |      1.6      1      2     29  Sangat baik  payload teramati=[7]B
+BLE2       1200    1198       2    0.17 |      2.8      1     17    272  Sangat baik  payload teramati=[7]B
+BLE3       1200    1200       0    0.00 |      2.4      1     14     30  Sangat baik  payload teramati=[7]B
+BLE4       1200    1200       0    0.00 |      1.2      1      1    184  Sangat baik  payload teramati=[7]B
+---------------------------------------------------------------------------------------------
+LoRa        150     149       1    0.67 |      1.4      1      2      2  Sangat baik
+BLE        4800    4786      14    0.29 |      2.0      1      8    272  Sangat baik
+TOTAL      4950    4935      15    0.30 |      2.0      1      8    272  Sangat baik
+
+Kategori TIPHON (Tabel 4): <3% sangat baik | 3-<15% baik | 15-<25% sedang | >=25% buruk
+
+Nomor urut yang hilang:
+  LORA1: 1 hilang, contoh seq: [93]
+  BLE1: 12 hilang, contoh seq: [7, 13, 45, 47, 48, 298, 510, 540, 591, 810, 879, 916]
+  BLE2: 2 hilang, contoh seq: [110, 559]
+
+Letak paket yang hilang (Tabel 22) -- gateway melapor arch=BM:
+  Sumber   P_sent  diterima gw  hilang radio  tertimpa di mailbox  dipublish gw
+  LORA1       150          149             1                    0           149
+  BLE1       1200         1188            12                    0          1188
+  BLE2       1200         1198             2                    0          1198
+  BLE3       1200         1200             0                    0          1200
+  BLE4       1200         1200             0                    0          1200
+  TOTAL: hilang di radio=15 | hilang di program=0 | gagal publish=0
+
+Diagnostik radio BLE (baris G, gateway):
+  BLE1: iklan tertangkap=4203 | capture rate=17.2% | seq terlewat di radio=12 | celah terlama=1426 ms | RSSI rata2=-92 dBm, terlemah=-106 dBm
+  BLE2: iklan tertangkap=3801 | capture rate=15.6% | seq terlewat di radio=2 | celah terlama=637 ms | RSSI rata2=-69 dBm, terlemah=-93 dBm
+  BLE3: iklan tertangkap=4842 | capture rate=19.8% | seq terlewat di radio=0 | celah terlama=619 ms | RSSI rata2=-70 dBm, terlemah=-94 dBm
+  BLE4: iklan tertangkap=5078 | capture rate=20.8% | seq terlewat di radio=0 | celah terlama=499 ms | RSSI rata2=-66 dBm, terlemah=-94 dBm
+Scan BLE restart selama sesi: 0x
+
+File sesi: summary_S10_BM_R6.txt, result_S10_BM_R6.json, mqtt_S10_BM_R6.csv, latency_S10_BM_R6.csv, serial_raw_S10_BM_R6.log (folder 'hasil\S10_BM\R06')

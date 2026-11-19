@@ -1,0 +1,34 @@
+=== HASIL SESI: P1_R1 ===
+Tanggal/jam: 2026-10-27 00:21:02 | Skenario: - | Repetisi: 1 | Arsitektur: FreeRTOS
+Payload: 7 B | Node BLE: 1 | Interval BLE: 2000 ms | Interval LoRa: - s | Interval iklan: 100 ms
+Kanal Wi-Fi: 7 | Jaringan sekitar: 2 | Posisi node: 2 | Catatan: -
+UJI PENDAHULUAN P1: Iklan 100 ms, Wi-Fi aktif | gateway: Gateway_FreeRTOS.ino (bawaan) | pengaturan radio terverifikasi
+Sumber   P_sent  P_recv  Hilang    PLR% |  Lat avg    p50    p95    max (ms)  Kategori TIPHON
+---------------------------------------------------------------------------------------------
+BLE1        300     251      49   16.33 |      1.0      1      1      2  Sedang  payload teramati=[7]B
+---------------------------------------------------------------------------------------------
+BLE         300     251      49   16.33 |      1.0      1      1      2  Sedang
+TOTAL       300     251      49   16.33 |      1.0      1      1      2  Sedang
+
+Kategori TIPHON (Tabel 4): <3% sangat baik | 3-<15% baik | 15-<25% sedang | >=25% buruk
+
+Nomor urut yang hilang:
+  BLE1: 49 hilang, contoh seq: [7, 9, 11, 19, 28, 31, 36, 38, 42, 50, 52, 60, 64, 66, 67, 71, 80, 82, 86, 100, 102, 116, 120, 128, 138, 141, 143, 148, 153, 158] ...
+  BLE1: 5 pesan duplikat di broker (tidak dihitung ganda)
+
+Letak paket yang hilang (Tabel 22) -- gateway melapor arch=RTOS:
+  Sumber   P_sent  diterima gw  hilang radio      dibuang antrean  dipublish gw
+  BLE1        300          223            77                    0           223
+  TOTAL: hilang di radio=77 | hilang di program=0 | gagal publish=0 | antrean maks (qmax)=1
+  Selisih dengan hilang di broker: -28 paket (positif = hilang antara gateway dan broker/logger; negatif = paket di luar rentang P_sent atau baseline tidak tepat)
+
+Diagnostik radio BLE (baris G, gateway):
+  BLE1: iklan tertangkap=1331 | capture rate=30.3% | seq terlewat di radio=45 | celah terlama=4885 ms | RSSI rata2=-90 dBm, terlemah=-100 dBm
+
+Pengaturan radio gateway: Radio: WIFI_NO_SLEEP=1 COEX_PREFER_BT=0
+Scan BLE restart selama sesi: 0x
+
+Baris tabel uji pendahuluan (Kode | Kondisi | P_sent | P_receive | PLR BLE | Rasio penerimaan iklan | Celah terlama):
+  P1 | Iklan 100 ms, Wi-Fi aktif | 300 | 251 | 16,33% | 30,3% | 4.885 ms
+
+File sesi: summary_P1_R1.txt, result_P1_R1.json, mqtt_P1_R1.csv, latency_P1_R1.csv, serial_raw_P1_R1.log (folder 'hasil\PENDAHULUAN\P1\R01')

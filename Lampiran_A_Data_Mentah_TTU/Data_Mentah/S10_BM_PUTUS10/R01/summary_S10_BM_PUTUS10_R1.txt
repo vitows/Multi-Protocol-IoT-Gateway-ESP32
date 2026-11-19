@@ -1,0 +1,53 @@
+=== HASIL SESI: S10_BM_PUTUS10_R1 ===
+Tanggal/jam: 2026-10-24 13:13:35 | Skenario: 10 | Repetisi: 1 | Arsitektur: Bare Metal
+Payload: 7 B | Node BLE: 4 | Interval BLE: 500 ms | Interval LoRa: 4 s | Interval iklan: 20 ms
+Kanal Wi-Fi: 7 | Jaringan sekitar: 3 | Posisi node: 2 | Catatan: -
+UJI GANGGUAN: PUTUS 10 s setiap 180 s (3 kali)
+Sumber   P_sent  P_recv  Hilang    PLR% |  Lat avg    p50    p95    max (ms)  Kategori TIPHON
+---------------------------------------------------------------------------------------------
+LORA1       150     146       4    2.67 |     60.6      1      2   3067  Sangat baik  payload teramati=[7]B
+BLE1       1200    1137      63    5.25 |      2.6      1      7    482  Baik  payload teramati=[7]B
+BLE2       1200    1139      61    5.08 |      3.3      1     16    579  Baik  payload teramati=[7]B
+BLE3       1200    1138      62    5.17 |      1.9      1      1    282  Baik  payload teramati=[7]B
+BLE4       1200    1136      64    5.33 |      2.3      1      2    371  Baik  payload teramati=[7]B
+---------------------------------------------------------------------------------------------
+LoRa        150     146       4    2.67 |     60.6      1      2   3067  Sangat baik
+BLE        4800    4550     250    5.21 |      2.5      1      4    579  Baik
+TOTAL      4950    4696     254    5.13 |      4.3      1      4   3067  Baik
+
+Kategori TIPHON (Tabel 4): <3% sangat baik | 3-<15% baik | 15-<25% sedang | >=25% buruk
+
+Nomor urut yang hilang:
+  LORA1: 4 hilang, contoh seq: [16, 37, 61, 106]
+  BLE1: 63 hilang, contoh seq: [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 219, 478, 479, 480, 481, 482, 483, 484, 485, 486] ...
+  BLE2: 61 hilang, contoh seq: [114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483] ...
+  BLE3: 62 hilang, contoh seq: [113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482] ...
+  BLE4: 64 hilang, contoh seq: [8, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 471, 472, 473, 474, 475, 476, 477, 478] ...
+
+Letak paket yang hilang (Tabel 22) -- gateway melapor arch=BM:
+  Sumber   P_sent  diterima gw  hilang radio  tertimpa di mailbox  dipublish gw
+  LORA1       150          149             1                    3           146
+  BLE1       1200         1198             2                   61          1137
+  BLE2       1200         1200             0                   61          1139
+  BLE3       1200         1200             0                   61          1139
+  BLE4       1200         1198             2                   62          1136
+  TOTAL: hilang di radio=5 | hilang di program=248 | gagal publish=0
+  Selisih dengan hilang di broker: 1 paket (positif = hilang antara gateway dan broker/logger; negatif = paket di luar rentang P_sent atau baseline tidak tepat)
+
+Uji gangguan jaringan (putus 10 s tiap 180 s, 3 kali):
+  Paket hilang SAAT gangguan (termasuk masa pulih)=247 | di luar gangguan=7 | terlambat >1 s tetapi sampai=3
+  Waktu pulih (gangguan selesai -> paket pertama tiba lagi): rata-rata 0.78 s, maks 0.93 s  [0.56, 0.93, 0.85]
+  LORA1: hilang saat gangguan=3, di luar=1, terlambat=3
+  BLE1: hilang saat gangguan=61, di luar=2, terlambat=0
+  BLE2: hilang saat gangguan=61, di luar=0, terlambat=0
+  BLE3: hilang saat gangguan=61, di luar=1, terlambat=0
+  BLE4: hilang saat gangguan=61, di luar=3, terlambat=0
+
+Diagnostik radio BLE (baris G, gateway):
+  BLE1: iklan tertangkap=4394 | capture rate=17.9% | seq terlewat di radio=2 | celah terlama=810 ms | RSSI rata2=-92 dBm, terlemah=-103 dBm
+  BLE2: iklan tertangkap=5136 | capture rate=20.9% | seq terlewat di radio=0 | celah terlama=517 ms | RSSI rata2=-67 dBm, terlemah=-95 dBm
+  BLE3: iklan tertangkap=5064 | capture rate=20.7% | seq terlewat di radio=0 | celah terlama=502 ms | RSSI rata2=-68 dBm, terlemah=-104 dBm
+  BLE4: iklan tertangkap=3504 | capture rate=14.3% | seq terlewat di radio=2 | celah terlama=903 ms | RSSI rata2=-69 dBm, terlemah=-94 dBm
+Scan BLE restart selama sesi: 0x
+
+File sesi: summary_S10_BM_PUTUS10_R1.txt, result_S10_BM_PUTUS10_R1.json, mqtt_S10_BM_PUTUS10_R1.csv, latency_S10_BM_PUTUS10_R1.csv, serial_raw_S10_BM_PUTUS10_R1.log (folder 'hasil\S10_BM_PUTUS10\R01')

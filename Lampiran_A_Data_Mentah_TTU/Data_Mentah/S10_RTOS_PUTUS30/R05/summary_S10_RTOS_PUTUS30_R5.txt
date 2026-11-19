@@ -1,0 +1,53 @@
+=== HASIL SESI: S10_RTOS_PUTUS30_R5 ===
+Tanggal/jam: 2026-10-24 09:20:34 | Skenario: 10 | Repetisi: 5 | Arsitektur: FreeRTOS
+Payload: 7 B | Node BLE: 4 | Interval BLE: 500 ms | Interval LoRa: 4 s | Interval iklan: 20 ms
+Kanal Wi-Fi: 7 | Jaringan sekitar: 3 | Posisi node: 2 | Catatan: -
+UJI GANGGUAN: PUTUS 30 s setiap 180 s (3 kali)
+Sumber   P_sent  P_recv  Hilang    PLR% |  Lat avg    p50    p95    max (ms)  Kategori TIPHON
+---------------------------------------------------------------------------------------------
+LORA1       150     149       1    0.67 |   2243.7      1  19705  27703  Sangat baik  payload teramati=[7]B
+BLE1       1200    1199       1    0.08 |   2540.3      1  21476  30845  Sangat baik  payload teramati=[7]B
+BLE2       1200    1197       3    0.25 |   2496.1      1  21043  30956  Sangat baik  payload teramati=[7]B
+BLE3       1200    1198       2    0.17 |   2562.8      1  21203  31245  Sangat baik  payload teramati=[7]B
+BLE4       1200    1193       7    0.58 |   2521.9      1  21203  31065  Sangat baik  payload teramati=[7]B
+---------------------------------------------------------------------------------------------
+LoRa        150     149       1    0.67 |   2243.7      1  19705  27703  Sangat baik
+BLE        4800    4787      13    0.27 |   2530.3      1  21281  31245  Sangat baik
+TOTAL      4950    4936      14    0.28 |   2521.5      1  21203  31245  Sangat baik
+
+Kategori TIPHON (Tabel 4): <3% sangat baik | 3-<15% baik | 15-<25% sedang | >=25% buruk
+
+Nomor urut yang hilang:
+  LORA1: 1 hilang, contoh seq: [105]
+  BLE1: 1 hilang, contoh seq: [476]
+  BLE2: 3 hilang, contoh seq: [114, 474, 834]
+  BLE3: 2 hilang, contoh seq: [4, 112]
+  BLE4: 7 hilang, contoh seq: [164, 201, 471, 522, 744, 831, 1079]
+
+Letak paket yang hilang (Tabel 22) -- gateway melapor arch=RTOS:
+  Sumber   P_sent  diterima gw  hilang radio      dibuang antrean  dipublish gw
+  LORA1       150          150             0                    0           150
+  BLE1       1200         1200             0                    0          1200
+  BLE2       1200         1200             0                    0          1200
+  BLE3       1200         1199             1                    0          1199
+  BLE4       1200         1195             5                    0          1195
+  TOTAL: hilang di radio=6 | hilang di program=0 | gagal publish=0 | antrean maks (qmax)=384
+  Selisih dengan hilang di broker: 8 paket (positif = hilang antara gateway dan broker/logger; negatif = paket di luar rentang P_sent atau baseline tidak tepat)
+
+Uji gangguan jaringan (putus 30 s tiap 180 s, 3 kali):
+  Paket hilang SAAT gangguan (termasuk masa pulih)=4 | di luar gangguan=10 | terlambat >1 s tetapi sampai=789
+  Waktu pulih (gangguan selesai -> paket pertama tiba lagi): rata-rata 0.77 s, maks 1.46 s  [0.07, 1.46, 0.78]
+  LORA1: hilang saat gangguan=0, di luar=1, terlambat=23
+  BLE1: hilang saat gangguan=1, di luar=0, terlambat=192
+  BLE2: hilang saat gangguan=1, di luar=2, terlambat=191
+  BLE3: hilang saat gangguan=0, di luar=2, terlambat=193
+  BLE4: hilang saat gangguan=2, di luar=5, terlambat=190
+
+Diagnostik radio BLE (baris G, gateway):
+  BLE1: iklan tertangkap=4497 | capture rate=18.4% | seq terlewat di radio=0 | celah terlama=1040 ms | RSSI rata2=-93 dBm, terlemah=-102 dBm
+  BLE2: iklan tertangkap=4456 | capture rate=18.3% | seq terlewat di radio=0 | celah terlama=504 ms | RSSI rata2=-69 dBm, terlemah=-82 dBm
+  BLE3: iklan tertangkap=4828 | capture rate=19.8% | seq terlewat di radio=1 | celah terlama=521 ms | RSSI rata2=-68 dBm, terlemah=-94 dBm
+  BLE4: iklan tertangkap=3261 | capture rate=13.4% | seq terlewat di radio=5 | celah terlama=686 ms | RSSI rata2=-70 dBm, terlemah=-86 dBm
+Scan BLE restart selama sesi: 0x
+
+File sesi: summary_S10_RTOS_PUTUS30_R5.txt, result_S10_RTOS_PUTUS30_R5.json, mqtt_S10_RTOS_PUTUS30_R5.csv, latency_S10_RTOS_PUTUS30_R5.csv, serial_raw_S10_RTOS_PUTUS30_R5.log (folder 'hasil\S10_RTOS_PUTUS30\R05')

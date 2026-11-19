@@ -1,0 +1,52 @@
+=== HASIL SESI: S10_BM_TAHAN2_R5 ===
+Tanggal/jam: 2026-10-24 16:05:12 | Skenario: 10 | Repetisi: 5 | Arsitektur: Bare Metal
+Payload: 7 B | Node BLE: 4 | Interval BLE: 500 ms | Interval LoRa: 4 s | Interval iklan: 20 ms
+Kanal Wi-Fi: 7 | Jaringan sekitar: 4 | Posisi node: 2 | Catatan: -
+UJI GANGGUAN: TAHAN 2 s setiap 30 s (17 kali)
+Sumber   P_sent  P_recv  Hilang    PLR% |  Lat avg    p50    p95    max (ms)  Kategori TIPHON
+---------------------------------------------------------------------------------------------
+LORA1       150     146       4    2.67 |     58.9      1      2   8383  Sangat baik  payload teramati=[7]B
+BLE1       1200    1179      21    1.75 |     10.8      1      1   9180  Sangat baik  payload teramati=[7]B
+BLE2       1200    1180      20    1.67 |      4.2      1     17    577  Sangat baik  payload teramati=[7]B
+BLE3       1200    1179      21    1.75 |      3.3      1      2    991  Sangat baik  payload teramati=[7]B
+BLE4       1200    1174      26    2.17 |      4.6      1      1   2305  Sangat baik  payload teramati=[7]B
+---------------------------------------------------------------------------------------------
+LoRa        150     146       4    2.67 |     58.9      1      2   8383  Sangat baik
+BLE        4800    4712      88    1.83 |      5.7      1      2   9180  Sangat baik
+TOTAL      4950    4858      92    1.86 |      7.3      1      2   9180  Sangat baik
+
+Kategori TIPHON (Tabel 4): <3% sangat baik | 3-<15% baik | 15-<25% sedang | >=25% buruk
+
+Nomor urut yang hilang:
+  LORA1: 4 hilang, contoh seq: [14, 15, 62, 131]
+  BLE1: 21 hilang, contoh seq: [109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 616, 617, 618, 619]
+  BLE2: 20 hilang, contoh seq: [107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 615, 616, 617]
+  BLE3: 21 hilang, contoh seq: [105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 614, 615, 616]
+  BLE4: 26 hilang, contoh seq: [17, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 187, 222, 613, 614, 615, 869, 957, 1114]
+
+Letak paket yang hilang (Tabel 22) -- gateway melapor arch=BM:
+  Sumber   P_sent  diterima gw  hilang radio  tertimpa di mailbox  dipublish gw
+  LORA1       150          146             4                    0           146
+  BLE1       1200         1200             0                   21          1179
+  BLE2       1200         1200             0                   20          1180
+  BLE3       1200         1200             0                   21          1179
+  BLE4       1200         1194             6                   20          1174
+  TOTAL: hilang di radio=10 | hilang di program=82 | gagal publish=0
+
+Uji gangguan jaringan (tahan 2 s tiap 30 s, 17 kali):
+  Paket hilang SAAT gangguan (termasuk masa pulih)=32 | di luar gangguan=60 | terlambat >1 s tetapi sampai=171
+  Waktu pulih (gangguan selesai -> paket pertama tiba lagi): rata-rata 0.15 s, maks 2.3 s  [2.3, 0.01, 0.02, 0.02, 0.02, 0.01, 0.01, 0.02, 0.01, 0.02, 0.01, 0.01, 0.02, 0.01, 0.01, 0.02, 0.01]
+  LORA1: hilang saat gangguan=0, di luar=4, terlambat=1
+  BLE1: hilang saat gangguan=8, di luar=13, terlambat=41
+  BLE2: hilang saat gangguan=7, di luar=13, terlambat=41
+  BLE3: hilang saat gangguan=8, di luar=13, terlambat=45
+  BLE4: hilang saat gangguan=9, di luar=17, terlambat=43
+
+Diagnostik radio BLE (baris G, gateway):
+  BLE1: iklan tertangkap=4530 | capture rate=18.7% | seq terlewat di radio=0 | celah terlama=655 ms | RSSI rata2=-92 dBm, terlemah=-101 dBm
+  BLE2: iklan tertangkap=5314 | capture rate=21.9% | seq terlewat di radio=0 | celah terlama=495 ms | RSSI rata2=-67 dBm, terlemah=-93 dBm
+  BLE3: iklan tertangkap=5234 | capture rate=21.6% | seq terlewat di radio=0 | celah terlama=544 ms | RSSI rata2=-67 dBm, terlemah=-94 dBm
+  BLE4: iklan tertangkap=3513 | capture rate=14.5% | seq terlewat di radio=6 | celah terlama=690 ms | RSSI rata2=-69 dBm, terlemah=-102 dBm
+Scan BLE restart selama sesi: 0x
+
+File sesi: summary_S10_BM_TAHAN2_R5.txt, result_S10_BM_TAHAN2_R5.json, mqtt_S10_BM_TAHAN2_R5.csv, latency_S10_BM_TAHAN2_R5.csv, serial_raw_S10_BM_TAHAN2_R5.log (folder 'hasil\S10_BM_TAHAN2\R05')

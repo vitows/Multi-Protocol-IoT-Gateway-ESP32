@@ -1,0 +1,29 @@
+=== HASIL SESI: S05_BM_R4 ===
+Tanggal/jam: 2026-10-23 22:19:34 | Skenario: 5 | Repetisi: 4 | Arsitektur: Bare Metal
+Payload: 7 B | Node BLE: 2 | Interval BLE: 2000 ms | Interval LoRa: 4 s | Interval iklan: 20 ms
+Kanal Wi-Fi: 7 | Jaringan sekitar: 6 | Posisi node: 2 | Catatan: -
+Sumber   P_sent  P_recv  Hilang    PLR% |  Lat avg    p50    p95    max (ms)  Kategori TIPHON
+---------------------------------------------------------------------------------------------
+LORA1       150     150       0    0.00 |     16.2     16     27     28  Sangat baik  payload teramati=[7]B
+BLE1        300     300       0    0.00 |      1.0      1      1      2  Sangat baik  payload teramati=[7]B
+BLE2        300     300       0    0.00 |      2.2      1      5     29  Sangat baik  payload teramati=[7]B
+---------------------------------------------------------------------------------------------
+LoRa        150     150       0    0.00 |     16.2     16     27     28  Sangat baik
+BLE         600     600       0    0.00 |      1.6      1      2     29  Sangat baik
+TOTAL       750     750       0    0.00 |      4.5      1     23     29  Sangat baik
+
+Kategori TIPHON (Tabel 4): <3% sangat baik | 3-<15% baik | 15-<25% sedang | >=25% buruk
+
+Letak paket yang hilang (Tabel 22) -- gateway melapor arch=BM:
+  Sumber   P_sent  diterima gw  hilang radio  tertimpa di mailbox  dipublish gw
+  LORA1       150          150             0                    0           150
+  BLE1        300          300             0                    0           300
+  BLE2        300          300             0                    0           300
+  TOTAL: hilang di radio=0 | hilang di program=0 | gagal publish=0
+
+Diagnostik radio BLE (baris G, gateway):
+  BLE1: iklan tertangkap=5538 | capture rate=22.7% | seq terlewat di radio=0 | celah terlama=520 ms | RSSI rata2=-85 dBm, terlemah=-100 dBm
+  BLE2: iklan tertangkap=5682 | capture rate=23.3% | seq terlewat di radio=0 | celah terlama=417 ms | RSSI rata2=-68 dBm, terlemah=-83 dBm
+Scan BLE restart selama sesi: 0x
+
+File sesi: summary_S05_BM_R4.txt, result_S05_BM_R4.json, mqtt_S05_BM_R4.csv, latency_S05_BM_R4.csv, serial_raw_S05_BM_R4.log (folder 'hasil\S05_BM\R04')

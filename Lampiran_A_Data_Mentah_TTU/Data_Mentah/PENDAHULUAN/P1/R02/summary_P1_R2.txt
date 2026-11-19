@@ -1,0 +1,32 @@
+=== HASIL SESI: P1_R2 ===
+Tanggal/jam: 2026-10-27 00:32:45 | Skenario: - | Repetisi: 2 | Arsitektur: FreeRTOS
+Payload: 7 B | Node BLE: 1 | Interval BLE: 2000 ms | Interval LoRa: - s | Interval iklan: 100 ms
+Kanal Wi-Fi: 7 | Jaringan sekitar: 1 | Posisi node: 2 | Catatan: -
+UJI PENDAHULUAN P1: Iklan 100 ms, Wi-Fi aktif | gateway: Gateway_FreeRTOS.ino (bawaan) | pengaturan radio terverifikasi
+Sumber   P_sent  P_recv  Hilang    PLR% |  Lat avg    p50    p95    max (ms)  Kategori TIPHON
+---------------------------------------------------------------------------------------------
+BLE1        300     256      44   14.67 |      1.0      1      1      2  Baik  payload teramati=[7]B
+---------------------------------------------------------------------------------------------
+BLE         300     256      44   14.67 |      1.0      1      1      2  Baik
+TOTAL       300     256      44   14.67 |      1.0      1      1      2  Baik
+
+Kategori TIPHON (Tabel 4): <3% sangat baik | 3-<15% baik | 15-<25% sedang | >=25% buruk
+
+Nomor urut yang hilang:
+  BLE1: 44 hilang, contoh seq: [14, 16, 23, 25, 29, 40, 47, 49, 58, 60, 62, 63, 69, 75, 82, 84, 87, 89, 96, 98, 103, 107, 111, 117, 123, 132, 140, 161, 188, 195] ...
+
+Letak paket yang hilang (Tabel 22) -- gateway melapor arch=RTOS:
+  Sumber   P_sent  diterima gw  hilang radio      dibuang antrean  dipublish gw
+  BLE1        300          256            44                    0           256
+  TOTAL: hilang di radio=44 | hilang di program=0 | gagal publish=0 | antrean maks (qmax)=1
+
+Diagnostik radio BLE (baris G, gateway):
+  BLE1: iklan tertangkap=1341 | capture rate=23.0% | seq terlewat di radio=44 | celah terlama=4684 ms | RSSI rata2=-90 dBm, terlemah=-97 dBm
+
+Pengaturan radio gateway: Radio: WIFI_NO_SLEEP=1 COEX_PREFER_BT=0
+Scan BLE restart selama sesi: 0x
+
+Baris tabel uji pendahuluan (Kode | Kondisi | P_sent | P_receive | PLR BLE | Rasio penerimaan iklan | Celah terlama):
+  P1 | Iklan 100 ms, Wi-Fi aktif | 300 | 256 | 14,67% | 23,0% | 4.684 ms
+
+File sesi: summary_P1_R2.txt, result_P1_R2.json, mqtt_P1_R2.csv, latency_P1_R2.csv, serial_raw_P1_R2.log (folder 'hasil\PENDAHULUAN\P1\R02')
